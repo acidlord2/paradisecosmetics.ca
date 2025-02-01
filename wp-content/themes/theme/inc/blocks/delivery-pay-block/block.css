@@ -1,0 +1,32 @@
+#delivery-pay-block {
+  margin-bottom: clamp(40px,2.5vw + 32px, 80px); }
+  #delivery-pay-block .blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 20px; }
+    @media (max-width: 1200px) {
+      #delivery-pay-block .blocks {
+        grid-template-columns: 1fr; } }
+    #delivery-pay-block .blocks .block-item {
+      padding: clamp(30px,1.25vw + 26px, 50px) clamp(15px,1.5625vw + 10px, 40px);
+      background-color: var(--bg-light);
+      border-radius: 10px;
+      height: fit-content; }
+      #delivery-pay-block .blocks .block-item .title {
+        margin-bottom: clamp(30px,0.625vw + 28px, 40px); }
+      #delivery-pay-block .blocks .block-item .list {
+        display: flex;
+        flex-direction: column;
+        gap: clamp(20px,0.625vw + 18px, 30px); }
+        #delivery-pay-block .blocks .block-item .list .item__title {
+          margin-bottom: 20px; }
+          #delivery-pay-block .blocks .block-item .list .item__title span {
+            color: var(--primary); }
+        #delivery-pay-block .blocks .block-item .list .item__subtitle {
+          margin-bottom: 15px; }
+        #delivery-pay-block .blocks .block-item .list .item__text {
+          padding-left: clamp(15px,0.9375vw + 12px, 30px);
+          border-left: 1px solid var(--primary); }
+
+/*# sourceMappingURL=block.css.map */

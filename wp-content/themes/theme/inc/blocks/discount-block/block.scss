@@ -1,0 +1,50 @@
+@import "./../../../assets/css/functions.scss";
+
+#discount-block{
+    margin-bottom: adapt(120, 40);
+    .top-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-bottom: adapt(40, 30);
+        .info{
+            display: flex;
+            align-items: center;
+            gap: adapt(30, 15);
+            .p1{
+                transition: all 0.5s;
+            }
+            &:hover{
+                .p1{
+                    color: var(--primary);
+                }
+                .mini-btn{
+                    background-color: var(--primary);
+                    border-color: var(--primary);
+                    svg{
+                        &:first-child{
+                            transform: translateX(0);
+                        }
+                        &:last-child{
+                            transform: translateX(300%);
+                        }
+                        path{
+                            stroke: var(--white);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .discounts {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+
+		@media (max-width: 800px) {
+			grid-template-columns: 1fr;
+		}
+	}
+}

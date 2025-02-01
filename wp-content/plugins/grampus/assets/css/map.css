@@ -1,0 +1,35 @@
+body .map-holder {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  flex-grow: 0;
+  width: 100%;
+  position: relative;
+  background-image: url("../images/map-holder.png");
+  background-position: center;
+}
+body .map-holder .map-object {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+body .map-holder .map-object iframe {
+  flex-grow: 1;
+  height: auto;
+}

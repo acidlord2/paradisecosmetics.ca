@@ -1,0 +1,68 @@
+@import "./../../../assets/css/functions.scss";
+
+#faqs-block{
+    margin-bottom: adapt(80, 40);
+    .questions{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        @media (max-width: 1000px) {
+            grid-template-columns: 1fr;
+        }
+        .question{
+            display: flex;
+            flex-direction: column;
+            &.active{
+                .icon{
+                    transform: translateX(-20px);
+                    &.close{
+                        display: block;  
+                    }
+                    &.open{
+                        display: none;
+                    }
+                }
+            }
+            &__top{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 15px;
+                padding: 25px 0px;
+                padding-right: 20px;
+                border-bottom: 1px solid var(--stroke);
+                cursor: pointer;
+                transition: all 0.5s;
+                &:hover{
+                    border-color: var(--primary);
+                    .title{
+                        color: var(--primary);
+                    }
+                    .icon{
+                        transform: translateX(-20px);
+                        svg{
+                            path{
+                                fill: var(--primary);
+                            }
+                        }
+                    }
+                }
+                .title{
+                    transition: all 0.5s;
+                }
+                .icon{
+                    transition: all 0.5s;
+                    &.close{
+                        display: none;
+                    }
+                }
+            }
+            &__bottom{
+                display: none;
+                padding: 20px 0;
+                max-width: 720px;
+                width: 100%;
+            }
+        }
+    }
+}

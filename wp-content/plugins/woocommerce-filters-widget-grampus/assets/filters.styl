@@ -1,0 +1,155 @@
+@import '../../../themes/theme/assets/css/includes/_mixins'
+
+.sidebar-filter
+	background-color white
+	border-radius 5px
+	padding 35px
+	box-shadow 0px 0px 20px rgba(0, 0, 0, 0.1)
+	.filter-block
+		margin 0px
+		& + .filter-block
+			margin-top 30px
+		.filter-block-header
+			df()
+			fdr()
+			jc('s')
+			ai('c')
+			padding 0px
+			color black
+			font-size 16px
+			font-weight 700
+			line-height 24px
+			margin 0px 0px 15px 0px
+		.filter-block-content
+			df()
+			fdc()
+			jc('e')
+			input[type="number"]
+				appearance none
+				&::-webkit-outer-spin-button
+				&::-webkit-inner-spin-button
+					appearance none
+			.range-slider
+				& + .inputs
+					margin-top 20px
+			.noUi-horizontal
+				height 1px
+				margin 10px
+				border-radius 2px
+				background-color brown
+				.noUi-base
+				.noUi-connects
+					width 100%
+					height 100%
+					position relative
+					z-index 1
+				.noUi-connect
+				.noUi-origin
+					will-change transform
+					position absolute
+					z-index 1
+					top 0
+					left 0
+					height 100%
+					width 100%
+					-ms-transform-origin 0 0
+					-webkit-transform-origin 0 0
+					transform-origin 0 0
+				.noUi-connect
+					top -2px
+					height 5px
+					border-radius 2px
+					background-color brown
+				.noUi-origin
+					left auto
+					right 0
+				.noUi-handle
+					position absolute
+					top -8px
+					left auto
+					right -8px
+					width 17px
+					height 17px
+					border-radius 50%
+					border 1px solid brown
+					background-color white
+					outline none
+					cursor pointer
+			.inputs
+				&.range
+					df()
+					fdr()
+					.group
+						dif()
+						fdc()
+						ai('s')
+						width calc(50% - 5px)
+						input
+							width 100%
+							padding 5px
+							color dgrey
+							font-size 14px
+							text-align center
+							background-color white
+							border 1px solid brown
+							border-radius 2px
+							position relative
+							z-index 1
+							&[name]
+								color black
+						& + .group
+							margin-left 10px
+				&.checkboxes
+					df()
+					fdc()
+					.group
+						df()
+						fdc()
+						label
+							df()
+							ai('c')
+							padding-left 35px
+							position relative
+							color black
+							font-size 16px
+							font-weight 400
+							line-height 24px
+							min-height 24px
+							.indicator
+								content ''
+								position absolute
+								top 0px
+								left 0px
+								bottom 0px
+								margin auto 0px
+								width 20px
+								height 20px
+								border 2px solid brown
+								border-radius 2px
+								&:before
+									content ''
+									position absolute
+									top 0px
+									left 0px
+									right 0px
+									bottom 0px
+									margin auto
+									width 12px
+									height 12px
+									border-radius 2px
+									background-color brown
+									opacity 0
+									transition opacity .1s linear
+							&:hover
+								.indicator
+									&:before
+										opacity 0.2
+						input
+							display none
+							&:checked
+								& + label
+									.indicator
+										&:before
+											opacity 1
+						& + .group
+							margin-top 5px

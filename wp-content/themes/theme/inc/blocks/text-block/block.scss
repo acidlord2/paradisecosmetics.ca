@@ -1,0 +1,9 @@
+@import "./../../../assets/css/functions.scss";
+
+#text-block{
+    margin-bottom: adapt(80, 40);
+    .content{
+        max-width: 880px;
+        width: 100%;
+    }
+}

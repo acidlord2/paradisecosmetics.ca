@@ -1,0 +1,7 @@
+#text-block {
+  margin-bottom: clamp(40px,2.5vw + 32px, 80px); }
+  #text-block .content {
+    max-width: 880px;
+    width: 100%; }
+
+/*# sourceMappingURL=block.css.map */

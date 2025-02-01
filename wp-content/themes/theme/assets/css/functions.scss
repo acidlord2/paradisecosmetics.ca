@@ -1,0 +1,39 @@
+// Пример adapt(100, 0, 320, 1200);
+// adapt($f-max: Максимальное значение, $f-min: Мимальное значение, $end: Нижний порог(По умолчанию 320), $start: верхний порог(По умолчанию 1920).
+// clamp(MIN, VAL, MAX) = max(MIN, min(VAL, MAX)).
+// Если одно число, например adapt(30), то функция вернет его значение в 30px.
+
+@function adapt($f-max, $f-min: null, $end: 320, $start: 1920) {
+    @if ($f-min) {
+        $k: calc(($f-max - $f-min) / ($start - $end));
+        $b: $f-min - $k * $end;
+        // Реверсирование значений по необходимости
+        @if ($f-max < $f-min) {
+            $temp: $f-max;
+            $f-max: $f-min;
+            $f-min: $temp;
+        }
+        $w: $k * 100;
+        @return unquote("clamp(#{$f_min}px,#{$w}vw + #{$b}px, #{$f_max}px)");
+    } @else {
+        @return $f-max * 1px;
+    }
+}
+
+//ruby sass
+@function adapt($f-max, $f-min: null, $end: 320, $start: 1920) {
+    @if ($f-min) {
+        $k: ($f-max - $f-min) / ($start - $end);
+        $b: $f-min - $k * $end;
+        // Реверсирование значений по необходимости
+        @if ($f-max < $f-min) {
+            $temp: $f-max;
+            $f-max: $f-min;
+            $f-min: $temp;
+        }
+        $w: $k * 100;
+        @return unquote("clamp(#{$f_min}px,#{$w}vw + #{$b}px, #{$f_max}px)");
+    } @else {
+        @return $f-max * 1px;
+    }
+}

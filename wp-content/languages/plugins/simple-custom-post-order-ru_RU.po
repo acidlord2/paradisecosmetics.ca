@@ -1,0 +1,109 @@
+# Translation of Plugins - Simple Custom Post Order - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Simple Custom Post Order - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-21 16:37:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Simple Custom Post Order - Stable (latest release)\n"
+
+#: class-simple-review.php:17
+msgid "Don't show again"
+msgstr "Не показывать снова"
+
+#: class-simple-review.php:16
+msgid "Remind me later"
+msgstr "Напомнить позже"
+
+#: class-simple-review.php:15
+msgid "Rate the plugin"
+msgstr "Оценить плагин"
+
+#: class-simple-review.php:14
+msgid "Hi there! Stoked to see you're using Simple Custom Post Order for a few days now - hope you like it! And if you do, please consider rating it. It would mean the world to us.  Keep on rocking!"
+msgstr "Привет! Рады видеть, что вы используете Simple Custom Post Order уже несколько дней — надеюсь, он вам нравится! Если это так, пожалуйста, оцените его. Для нас это будет очень важно.  Продолжайте в том же духе!"
+
+#: settings.php:322
+msgid "Check to reset order of Post Types"
+msgstr "Выбрать чтобы сбросить порядок типов записей"
+
+#: settings.php:303
+msgid "Check to include other custom post types. You will need to update your settings after enabling this option."
+msgstr "Установите флажок, чтобы включить другие пользовательские типы постов. После включения этой опции вам нужно будет обновить настройки."
+
+#: settings.php:301
+msgid "NOTICE: This is for advanced users only."
+msgstr "ВНИМАНИЕ: Только для опытных пользователей."
+
+#: settings.php:299
+msgid "Show advanced view of Post Types"
+msgstr "Показать расширенные типы записей"
+
+#: settings.php:280
+msgid "Check to see advanced view of Post Types "
+msgstr "Расширенное представление типов записей"
+
+#: settings.php:312
+msgid "Update"
+msgstr "Обновить"
+
+#: settings.php:207
+msgid "Check to Sort Taxonomies"
+msgstr "Таксономии для которых нужна сортировка"
+
+#: settings.php:148 settings.php:226
+msgid "Check All"
+msgstr "Выбрать все"
+
+#: settings.php:129
+msgid "Check to Sort Post Types"
+msgstr "Типы записей для которых нужна сортировка"
+
+#: settings.php:112
+msgid "Settings Updated."
+msgstr "Настройки обновлены."
+
+#: settings.php:108
+msgid "Simple Custom Post Order Settings"
+msgstr "Настройки Simple Custom Post Order"
+
+#: simple-custom-post-order.php:190
+msgid "SCPOrder"
+msgstr "SCPOrder"
+
+#: simple-custom-post-order.php:141
+msgid "Dismiss this notice."
+msgstr "Скрыть это уведомление."
+
+#: simple-custom-post-order.php:140
+msgid "Get started !"
+msgstr "Начать!"
+
+#: simple-custom-post-order.php:138
+msgid "Thank you for installing our awesome plugin, in order to enable it you need to go to the settings page and select which custom post or taxonomy you want to order."
+msgstr "Спасибо, что установили наш замечательный плагин. Перейдите на страницу настроек и укажите типы постов или таксономий которые вы хотите упорядочить."
+
+#. Author URI of the plugin
+msgid "https://colorlib.com/"
+msgstr "https://colorlib.com/"
+
+#. Author of the plugin
+msgid "Colorlib"
+msgstr "Colorlib"
+
+#. Description of the plugin
+msgid "Order Items (Posts, Pages, and Custom Post Types) using a Drag and Drop Sortable JavaScript."
+msgstr "Упорядочивание элементов (записей, страниц и пользовательских типов записей) с помощью JavaScript с возможностью перетаскивания и вставки."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins-wp/simple-custom-post-order/"
+msgstr "https://wordpress.org/plugins-wp/simple-custom-post-order/"
+
+#. Plugin Name of the plugin
+#: simple-custom-post-order.php:136
+msgid "Simple Custom Post Order"
+msgstr "Simple Custom Post Order"

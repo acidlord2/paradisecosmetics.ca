@@ -1,0 +1,46 @@
+@import "./../../../assets/css/functions.scss";
+
+#present-block {
+    margin-bottom: adapt(120, 40);
+
+    .present {
+        position: relative;
+        height: fit-content;
+        min-height: adapt(615, 240);
+        border-radius: 10px;
+        overflow: hidden;
+        @media (max-width: 800px) {
+            min-height: unset;
+        }
+        .bg {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+
+        }
+
+        &__content {
+            box-sizing: content-box;
+            max-width: 480px;
+            padding: adapt(120, 40) adapt(100, 15);
+            display: flex;
+            flex-direction: column;
+            @media (max-width: 800px) {
+                backdrop-filter: blur(4px);
+                background: rgba(255, 255, 255, 0.4);
+                max-width: unset;
+            }
+    
+
+            .title {
+                margin-bottom: adapt(30, 20);
+            }
+
+            .text {
+                margin-bottom: adapt(40, 30);
+            }
+        }
+    }
+}

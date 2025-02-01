@@ -1,0 +1,30 @@
+#contact-block {
+  margin-bottom: clamp(40px,2.5vw + 32px, 80px); }
+  #contact-block .contact-container {
+    max-width: 910px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px; }
+    #contact-block .contact-container .mail-title {
+      color: var(--gray);
+      margin-bottom: 5px; }
+    #contact-block .contact-container .emails {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-bottom: 40px; }
+    #contact-block .contact-container .content {
+      margin-bottom: clamp(30px,0.625vw + 28px, 40px); }
+      #contact-block .contact-container .content p {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 120%;
+        color: var(--black); }
+      #contact-block .contact-container .content a {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 120%;
+        color: var(--primary);
+        text-decoration: underline; }
+
+/*# sourceMappingURL=block.css.map */

@@ -1,0 +1,40 @@
+@import "./../../../assets/css/functions.scss";
+
+#contact-block {
+    margin-bottom: adapt(80, 40);
+    .contact-container {
+        max-width: 910px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+
+        .mail-title {
+            color: var(--gray);
+            margin-bottom: 5px;
+        }
+
+        .emails {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-bottom: 40px;
+        }
+
+        .content {
+            margin-bottom: adapt(40, 30);
+            p {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 120%;
+                color: var(--black);
+            }
+            a{
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 120%;
+                color: var(--primary);
+                text-decoration: underline;
+            }
+        }
+    }
+}

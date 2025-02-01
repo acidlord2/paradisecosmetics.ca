@@ -1,0 +1,17 @@
+@import "./../../../assets/css/functions.scss";
+
+.products-block {
+    .container{
+        position: relative;
+    }
+    .products-swiper {
+
+        .swiper-slide {
+            height: auto;
+        }
+
+        .product {
+            height: 100%;
+        }
+    }
+}

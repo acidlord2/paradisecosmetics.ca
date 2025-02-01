@@ -1,0 +1,2277 @@
+# Translation of Plugins - Custom Post Type UI - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Custom Post Type UI - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-11 17:15:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Custom Post Type UI - Stable (latest release)\n"
+
+#: custom-post-type-ui.php:847
+msgid "Secondary menu"
+msgstr "Дополнительное меню"
+
+#. translators: Placeholder will hold the name of the plugin, version of the
+#. plugin and a link to WebdevStudios.
+#: inc/utility.php:112
+msgid "%1$s version %2$s by %3$s"
+msgstr "%1$s версия %2$s от %3$s"
+
+#. translators: Link text for WordPress Developer site.
+#: inc/post-types.php:1518
+msgid "Theme support for post formats"
+msgstr "Поддержка форматов постов в теме"
+
+#. translators: Link text for WordPress Developer site.
+#: inc/post-types.php:1515
+msgid "Theme support for featured images"
+msgstr "Поддержка тем для избранных изображений"
+
+#: inc/post-types.php:1508
+msgid "Featured images and Post Formats need theme support added, to be used."
+msgstr "Избранные изображения и форматы записей нуждаются в добавленной поддержке темы, чтобы их использовать."
+
+#: inc/post-types.php:1498
+msgid "Provide a callback function that sets up the meta boxes for the edit form. Do `remove_meta_box()` and `add_meta_box()` calls in the callback. Default null."
+msgstr "Предоставьте функцию обратного вызова, которая настраивает мета-поля для формы редактирования. Выполняйте вызовы 'remove_meta_box()' и 'add_meta_box()' в обратном вызове. Значение по умолчанию равно null."
+
+#: inc/post-types.php:1131 inc/taxonomies.php:1216
+msgid "(default: wp/v2) To change the namespace URL of REST API route."
+msgstr "(по умолчанию: wp/v2) Изменение URL-адреса пространства имен маршрута REST API."
+
+#: inc/post-types.php:1130 inc/taxonomies.php:1215
+msgid "REST API namespace"
+msgstr "Пространство имен REST API"
+
+#: inc/taxonomies.php:1291
+msgid "Whether terms in this taxonomy should be sorted in the order they are provided to wp_set_object_terms()"
+msgstr "Должны ли термины в этой таксономии сортироваться в том порядке, в котором они предоставляются wp_set_object_terms()"
+
+#: inc/taxonomies.php:1290
+msgid "Sort"
+msgstr "Сортировать"
+
+#: inc/taxonomies.php:939
+msgid "(default: false) Whether the taxonomy can have parent-child relationships. \"True\" gives checkboxes, \"False\" gives text input."
+msgstr "(по умолчанию: false) Может ли таксономия иметь отношения родитель-потомок. \"True\" ставит флажки, \"False\" дает текстовый ввод."
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:842
+msgid "The description is not prominent by default; however, some themes may show it."
+msgstr "Описания не видно по умолчанию, однако некоторые темы могут его показывать."
+
+#: inc/taxonomies.php:839
+msgid "Description for the Description field on Edit Tags screen."
+msgstr "Описание для поля Описание на экране Редактирование тегов."
+
+#: inc/taxonomies.php:838
+msgid "Term Description Field Description"
+msgstr "Описание термина Описание поля Описание"
+
+#: inc/taxonomies.php:837
+msgid "(e.g. \"The description is not prominent by default; however, some themes may show it.\""
+msgstr "(например, \"Описание не является заметным по умолчанию; однако некоторые темы могут показать это»."
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:826
+msgid "The \"slug\" is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr "\"Slug\" это краткая и понятная URL-версия имени. Как правило, в нижнем регистре и содержит только буквы, цифры и дефисы."
+
+#: inc/taxonomies.php:823
+msgid "Description for the Slug field on Edit Tags screen. "
+msgstr "Описание поля Slug на экране Редактирования тегов. "
+
+#: inc/taxonomies.php:822
+msgid "Term Slug Field Description"
+msgstr "Описание поля слизняка термина"
+
+#: inc/taxonomies.php:821
+msgid "(e.g. \"The « slug » is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.\""
+msgstr "(Например, «Слаг» — это URL-совместимая версия имени. Обычно все они написаны строчными буквами и содержат только буквы, цифры и дефисы»."
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:810
+msgid "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band."
+msgstr "Назначить родительский элемент для создания иерархии. \"Дерево\", например, может быть родителем для \"ели\" и \"березы\"."
+
+#: inc/taxonomies.php:807
+msgid "Description for the Parent field on Edit Tags screen."
+msgstr "Описание поля \"Родитель\" на экране \"Изменение тегов\"."
+
+#: inc/taxonomies.php:806
+msgid "Term Parent Field Description"
+msgstr "Описание родительского поля термина"
+
+#: inc/taxonomies.php:805
+msgid "(e.g. \"Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.\""
+msgstr "(Например, \"Назначьте родительский термин для создания иерархии. Например, термин Jazz будет родителем терминов Bebop и Big Band\""
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:794
+msgid "The name is how it appears on your site."
+msgstr "Имя, как оно появляется на вашем сайте."
+
+#: inc/taxonomies.php:791
+msgid "Description for the Name field on Edit Tags screen."
+msgstr "Описание поля «Имя» на экране «Редактирование тегов»."
+
+#: inc/taxonomies.php:790
+msgid "Term Name Field Description"
+msgstr "Название термина Описание поля"
+
+#: inc/taxonomies.php:789
+msgid "(e.g. \"The name is how it appears on your site.\""
+msgstr "(Например, «Имя — это то, как оно отображается на вашем сайте»."
+
+#: inc/support.php:223
+msgid "If you have set \"exclude from search\" to True for the pot type, this would be why. If you need the post types in the archives, but still want to exclude them from search, it is recommended to use the \"pre_get_posts\" hook to unset the post type from considered types."
+msgstr "Если вы установили для параметра \"исключить из поиска\" значение True для типа банка, вот почему. Если вам нужны типы записей в архивах, но вы все же хотите исключить их из поиска, рекомендуется использовать хук «pre_get_posts», чтобы отменить тип записи от рассматриваемых типов."
+
+#: inc/support.php:220
+msgid "Why are my post types not showing in taxonomy term archives?"
+msgstr "Почему мои типы постов не отображаются в архивах терминов таксономии?"
+
+#: inc/post-types.php:1271
+msgid "(default: false) Can this post_type be exported."
+msgstr "(по умолчанию: false) Можно ли экспортировать эту post_type."
+
+#: inc/post-types.php:1270
+msgid "Can Export"
+msgstr "Может экспортировать"
+
+#: inc/post-types.php:1202
+msgid "(default: false) Whether or not to exclude posts with this post type from front end search results. This also excludes from taxonomy term archives."
+msgstr "(по умолчанию: false) Исключать или нет сообщения с этим типом сообщения из результатов поиска на передней панели. Это также исключает из архивов термины таксономии."
+
+#. translators: Used for autofill
+#: inc/post-types.php:923
+msgid "Add %s"
+msgstr "Добавить %s"
+
+#: inc/post-types.php:920
+msgid "(e.g. Add Movie)"
+msgstr "(напр., Добавить фильм)"
+
+#: inc/post-types.php:916
+msgid "Placeholder text in the \"title\" input when creating a post. Not exportable."
+msgstr "Замещающий текст во входных данных \"title\" при создании записи. Не экспортируется."
+
+#: inc/post-types.php:915
+msgid "Add Title"
+msgstr "Добавить заголовок"
+
+#: inc/taxonomies.php:1241
+msgid "(default: inherited from \"show_ui\") Whether to list the taxonomy in the Tag Cloud Widget controls."
+msgstr "(по умолчанию: наследуется от \"show_ui\") Перечислять ли таксономию в элементах управления виджета облака тегов."
+
+#: inc/taxonomies.php:1240
+msgid "Show in tag cloud."
+msgstr "Показать в облаке тегов."
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:238
+msgid "We recommend checking out %s, the latest iteration of \"CMB2\". Both are supported by WebDevStudios."
+msgstr "Мы рекомендуем ознакомиться с %s, последней итерацией \"CMB2\". Обе поддерживаются WebDevStudios."
+
+#: inc/post-types.php:1476
+msgid "Choose dashicon"
+msgstr "Выберите дашикон"
+
+#: inc/post-types.php:330 inc/taxonomies.php:335
+msgid "Clear labels"
+msgstr "Четкие метки"
+
+#: inc/taxonomies.php:711
+msgid "Used when indicating that there are no terms in the given taxonomy within the meta box and taxonomy list table."
+msgstr "Используется при указании на отсутствие терминов в данной таксономии в таблице мета-поля и списка таксономии."
+
+#: inc/post-types.php:1243
+msgid "(default: false) Whether or not the post type can have parent-child relationships. At least one published content item is needed in order to select a parent."
+msgstr "(по умолчанию: false) Может ли тип записи иметь отношения родитель-потомок. Для выбора родительского элемента требуется хотя бы один элемент опубликованного контента."
+
+#: external/wpgraphql.php:340
+msgid "Custom Post Type UI has native support for WPGraphQL. Please <a href=\"%s\">de-active</a> the \"WPGraphQL for Custom Post Type UI\" extension to proceed."
+msgstr "Пользовательский интерфейс типа записи имеет встроенную поддержку WPGraphQL. Пожалуйста, <a href=\"%s\">отключите</a> расширение \"WPGraphQL для пользовательского пользовательского интерфейса типа записи\", чтобы продолжить."
+
+#: external/wpgraphql.php:249
+msgid "Plural name for reference in the GraphQL API."
+msgstr "Имя во множественном числе для ссылки в API GraphQL."
+
+#: external/wpgraphql.php:248
+msgid "GraphQL Plural Name"
+msgstr "Имя во множественном числе GraphQL"
+
+#: external/wpgraphql.php:238
+msgid "Singular name for reference in the GraphQL API."
+msgstr "Единственное имя для справки в API GraphQL."
+
+#: external/wpgraphql.php:237
+msgid "GraphQL Single Name"
+msgstr "Одно имя GraphQL"
+
+#: external/wpgraphql.php:226
+msgid "Whether or not to show data of this type in the WPGraphQL. Default: false"
+msgstr "Следует ли отображать данные этого типа в WPGraphQL. Значение по умолчанию: false"
+
+#: external/wpgraphql.php:225
+msgid "Show in GraphQL"
+msgstr "Показать в GraphQL"
+
+#: external/wpgraphql.php:195
+msgid "Toggle panel: GraphQL Settings"
+msgstr "Переключатель панели: Настройки GraphQL"
+
+#: external/wpgraphql.php:191
+msgid "WPGraphQL"
+msgstr "WPGraphQL"
+
+#: external/wpgraphql.php:83
+msgid "The graphql_single_name is empty for the \"%s\" Post Type or Taxonomy registered by Custom Post Type UI."
+msgstr "Graphql_single_name пуст для типа записи \"%s\" или таксономии, зарегистрированной пользовательским интерфейсом пользовательского типа записи."
+
+#: external/wpgraphql.php:69
+msgid "The graphql_plural_name is empty for the \"%s\" Post Type or Taxonomy registered by Custom Post Type UI."
+msgstr "Graphql_plural_name пуста для типа записи \"%s\" или таксономии, зарегистрированных пользовательским интерфейсом пользовательского типа записи."
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:778
+msgid "Back to %s"
+msgstr "Назад к %s"
+
+#: inc/taxonomies.php:775
+msgid "The text displayed after a term has been updated for a link back to main index."
+msgstr "Текст, отображаемый после окончания семестра, был обновлен для ссылки на основной индекс."
+
+#: inc/taxonomies.php:774
+msgid "Back to Items"
+msgstr "Вернуться к пунктам"
+
+#: inc/taxonomies.php:773
+msgid "(e.g. &larr; Back to actors"
+msgstr "(напр., & larr; Назад к актерам"
+
+#: inc/taxonomies.php:695
+msgid "The text displayed via clicking ‘Choose from the most used items’ in the taxonomy meta box when no items are available."
+msgstr "Текст отображается с помощью нажатия \"Выберите из наиболее часто используемых элементов\" в таксономии мета поле, когда нет элементов доступны."
+
+#: inc/taxonomies.php:1312
+msgid "Set a default term for the taxonomy. Able to set a name, slug, and description. Only a name is required if setting a default, others are optional. Set values in the following order, separated by comma. Example: name, slug, description"
+msgstr "Установите TERM по умолчанию для таксономии. Возможность установить имя, пулю и описание. Только имя требуется при установлении по умолчанию, другие являются необязательными. Установите значения в следующем порядке, разделенные запятой. Пример: имя, пуля, описание"
+
+#: inc/taxonomies.php:1311
+msgid "Default Term"
+msgstr "Term по умолчанию"
+
+#: inc/utility.php:735
+msgid "Nonce failed verification"
+msgstr "Код не прошел проверку"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:212
+msgid "Please visit the %1$sPost Type Templates in 4.7%2$s post on the Make WordPress Core blog for details about setting templates for multiple post types."
+msgstr "Пожалуйста, посетите %1$sПостовые шаблоны в 4.7%2$s пост в блоге Make WordPress Core для получения подробной информации о настройке шаблонов для нескольких типов сообщений."
+
+#: inc/support.php:207
+msgid "How do I add custom post type support for custom templates selection like pages have?"
+msgstr "Как добавить поддержку пользовательских типов записей для выбора пользовательских шаблонов, как у страниц?"
+
+#: inc/post-types.php:1717
+msgid "Taxonomy options"
+msgstr "Варианты таксономии"
+
+#: inc/post-types.php:1075
+msgid "(CPTUI default: false) Whether to delete posts of this type when deleting a user."
+msgstr "(CPTUI по умолчанию: false) Удалять ли сообщения этого типа при удалении пользователя."
+
+#: inc/post-types.php:1074
+msgid "Delete with user"
+msgstr "Удалить с пользователем"
+
+#. translators: Used for autofill
+#: inc/post-types.php:907
+msgid "%s updated."
+msgstr "%s обновлён."
+
+#: inc/post-types.php:904
+msgid "(e.g. Movie updated)"
+msgstr "(напр., Фильм обновлен)"
+
+#: inc/post-types.php:900
+msgid "Used in the editor notice after updating a post. Default \"Post updated.\" / \"Page updated.\""
+msgstr "Используется в уведомлении редактора после обновления сообщения. По умолчанию \"Сообщение обновлено\" / \"Страница обновлена.\""
+
+#: inc/post-types.php:899
+msgid "Item Updated"
+msgstr "Элемент обновлеён"
+
+#. translators: Used for autofill
+#: inc/post-types.php:891
+msgid "%s scheduled"
+msgstr "%s запланирован"
+
+#: inc/post-types.php:888
+msgid "(e.g. Movie scheduled)"
+msgstr "(например, запланировано кино)"
+
+#: inc/post-types.php:884
+msgid "Used in the editor notice after scheduling a post to be published at a later date. Default \"Post scheduled.\" / \"Page scheduled.\""
+msgstr "Используется в уведомлении редактора после планирования публикации, которая будет опубликована позднее. По умолчанию \"Сообщение запланировано\" / \"Страница запланирована\"."
+
+#: inc/post-types.php:883
+msgid "Item Scheduled"
+msgstr "Элемент запланирован"
+
+#. translators: Used for autofill
+#: inc/post-types.php:858
+msgid "%s reverted to draft."
+msgstr "%s преобразован в черновик."
+
+#: inc/post-types.php:855
+msgid "(e.g. Movie reverted to draft)"
+msgstr "(например, фильм возвращён в черновик)"
+
+#: inc/post-types.php:851
+msgid "Used in the editor notice after reverting a post to draft. Default \"Post reverted to draft.\" / \"Page reverted to draft.\""
+msgstr "Используется в уведомлении редактора после возврата сообщения в черновик. По умолчанию \"Сообщение возвращено к черновику\" / \"Страница вернулась к черновику.\""
+
+#: inc/post-types.php:850
+msgid "Item Reverted To Draft"
+msgstr "Элемент возвращён к черновику"
+
+#. translators: Used for autofill
+#: inc/post-types.php:842
+msgid "%s published privately."
+msgstr "%s опубликована приватно."
+
+#: inc/post-types.php:839
+msgid "(e.g. Movie published privately.)"
+msgstr "(например, фильм, опубликованный в частном порядке.)"
+
+#: inc/post-types.php:835
+msgid "Used in the editor notice after publishing a private post. Default \"Post published privately.\" / \"Page published privately.\""
+msgstr "Используется в уведомлении редактора после публикации личного сообщения. По умолчанию \"Сообщение опубликовано в частном порядке.\" / \"Страница опубликована в частном порядке.\""
+
+#: inc/post-types.php:834
+msgid "Item Published Privately"
+msgstr "Элемент опубликован в частном порядке"
+
+#. translators: Used for autofill
+#: inc/post-types.php:826
+msgid "%s published"
+msgstr "%s опубликовано"
+
+#: inc/post-types.php:823
+msgid "(e.g. Movie published)"
+msgstr "(напр., Фильм опубликован)"
+
+#: inc/post-types.php:819
+msgid "Used in the editor notice after publishing a post. Default \"Post published.\" / \"Page published.\""
+msgstr "Используется в уведомлении редактора после публикации сообщения. По умолчанию \"Публикация опубликована\" / \"Страница опубликована\"."
+
+#: inc/post-types.php:818
+msgid "Item Published"
+msgstr "Элемент опубликован"
+
+#. translators: Used for autofill
+#: inc/post-types.php:794
+msgid "%s attributes"
+msgstr "%s атрибуты"
+
+#. translators: Used for autofill
+#: inc/post-types.php:746
+msgid "Filter %s list"
+msgstr "Фильтровать список %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:730
+msgid "Upload to this %s"
+msgstr "Загрузить на этот %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:714
+msgid "Insert into %s"
+msgstr "Вставить в %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:698
+msgid "%s archives"
+msgstr "Архивы %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:682
+msgid "Use as featured image for this %s"
+msgstr "Использовать в качестве избранного изображения для этого %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:666
+msgid "Remove featured image for this %s"
+msgstr "Удалить избранные изображения для этого %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:650
+msgid "Set featured image for this %s"
+msgstr "Установить рекомендуемое изображение для этого %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:634
+msgid "Featured image for this %s"
+msgstr "Главное изображение для этого %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:601
+msgid "No %s found in trash"
+msgstr "%s не найдено в корзине"
+
+#. translators: Used for autofill
+#: inc/post-types.php:473
+msgid "Add new"
+msgstr "Добавить новый"
+
+#. translators: Used for autofill
+#: inc/post-types.php:441
+msgid "My %s"
+msgstr "Мои %s"
+
+#. translators: %s: Post type slug
+#. translators: %s: Taxonomy slug
+#: inc/listings.php:159 inc/listings.php:373
+msgid "Edit %1$s (%2$s)"
+msgstr "Редактировать %1$s (%2$s)"
+
+#: inc/listings.php:65
+msgid "Content types registered with Custom Post Type UI."
+msgstr "Типы контента, зарегистрированные в пользовательском интерфейсе типа поста."
+
+#. translators: Used for autofill
+#: inc/post-types.php:778 inc/taxonomies.php:762
+msgid "%s list"
+msgstr "%s список"
+
+#. translators: Used for autofill
+#: inc/post-types.php:762 inc/taxonomies.php:746
+msgid "%s list navigation"
+msgstr "%s навигация по списку"
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:730
+msgid "No %s"
+msgstr "Нет %s"
+
+#. translators: Used for autofill
+#: inc/post-types.php:585 inc/taxonomies.php:714
+msgid "No %s found"
+msgstr "%s не найдено"
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:554
+msgid "Update %s name"
+msgstr "Обновить имя %s"
+
+#: inc/post-types.php:1524 inc/taxonomies.php:344
+msgid "Post type options"
+msgstr "Параметры типа сообщения"
+
+#: inc/post-types.php:326 inc/taxonomies.php:330
+msgid "Auto-populate labels"
+msgstr "Автозаполнение ярлыков"
+
+#: inc/post-types.php:324 inc/taxonomies.php:328
+msgid "Populate missing labels based on chosen labels"
+msgstr "Заполнение отсутствующих меток на основе выбранных меток"
+
+#: inc/post-types.php:323 inc/taxonomies.php:327
+msgid "Populate additional labels based on chosen labels"
+msgstr "Заполнение дополнительных меток на основе выбранных меток"
+
+#: inc/taxonomies.php:66 inc/utility.php:1037
+msgid "Please select a post type to associate with."
+msgstr "Пожалуйста, выберите тип сообщения для связи."
+
+#: inc/taxonomies.php:1302
+msgid "Sets a callback function name for the meta box display. Hierarchical default: post_categories_meta_box, non-hierarchical default: post_tags_meta_box. To remove the metabox completely, use \"false\"."
+msgstr "Устанавливает имя функции обратного вызова для отображения мета-поля. Иерархическое значение по умолчанию: post_categories_meta_box, неиерархическое значение по умолчанию: post_tags_meta_box. Чтобы полностью удалить метабокс, используйте \"false\"."
+
+#: inc/taxonomies.php:1186
+msgid "(Custom Post Type UI default: true) Whether to show this taxonomy data in the WP REST API."
+msgstr "(Пользовательский интерфейс пользовательского типа по умолчанию: true) Отображать ли эти данные таксономии в API REST WP."
+
+#: inc/wp-cli.php:121
+msgid "Successfully saved data to file."
+msgstr "Успешно сохраненные данные в файл."
+
+#: inc/wp-cli.php:118
+msgid "Error saving data."
+msgstr "Ошибка сохранения данных."
+
+#: inc/wp-cli.php:101
+msgid "Please provide a path to export your data to."
+msgstr "Пожалуйста, укажите путь для экспорта ваших данных."
+
+#: inc/wp-cli.php:97
+msgid "Please provide whether you are exporting your post types or taxonomies"
+msgstr "Укажите, экспортируете ли вы свои типы сообщений или таксономии"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/wp-cli.php:74
+msgid "Imported %s successfully"
+msgstr "Импортировано %s успешно"
+
+#: inc/wp-cli.php:69
+msgid "An error on import occurred"
+msgstr "Произошла ошибка при импорте"
+
+#: inc/wp-cli.php:55
+msgid "No JSON data found"
+msgstr "Данные JSON не найдены"
+
+#: inc/wp-cli.php:47
+msgid "Please provide a path to the file holding your CPTUI JSON data."
+msgstr "Пожалуйста, укажите путь к файлу, содержащему ваши данные CPTUI JSON."
+
+#: inc/wp-cli.php:43
+msgid "Please provide whether you are importing post types or taxonomies"
+msgstr "Укажите, импортируете ли вы типы записей или таксономии"
+
+#. translators: Placeholder will hold `<abbr>` tag for CPTUI.
+#: inc/utility.php:127
+msgid "Review %s"
+msgstr "Обзор %s"
+
+#: inc/tools-sections/tools-get-code.php:44
+msgid "All Custom Post Type UI Taxonomies"
+msgstr "Все пользовательские почтовый тип UI таксономии"
+
+#: inc/tools-sections/tools-get-code.php:17
+msgid "All Custom Post Type UI Post Types"
+msgstr "Все пользовательские типы сообщений"
+
+#: inc/tools.php:437
+msgid "Export Taxonomies settings"
+msgstr "Настройки экспорта таксономий"
+
+#: inc/tools.php:395
+msgid "Export Post Types settings"
+msgstr "Настройки экспорта типов постов"
+
+#: inc/post-types.php:1497 inc/taxonomies.php:1301
+msgid "Metabox callback"
+msgstr "Metabox обратный вызов"
+
+#: inc/taxonomies.php:1206
+msgid "(default: WP_REST_Terms_Controller) Custom controller to use instead of WP_REST_Terms_Controller."
+msgstr "(по умолчанию: WP_REST_Terms_Controller) Пользовательский контроллер для использования вместо WP_REST_Terms_Controller."
+
+#: inc/taxonomies.php:914
+msgid "(default: value of \"public\" setting) Whether or not the taxonomy should be publicly queryable."
+msgstr "(по умолчанию: значение параметра\" public\") независимо от того, должна ли таксономия быть общедоступной для запроса."
+
+#: inc/taxonomies.php:913
+msgid "Public Queryable"
+msgstr "Public Queryable"
+
+#: inc/taxonomies.php:889
+msgid "(default: true) Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
+msgstr "(по умолчанию: true) Независимо от того, предназначена ли таксономия для публичного использования либо через интерфейс администратора, либо через интерфейсных пользователей."
+
+#: inc/taxonomies.php:341
+msgid "Add support for available registered post types. At least one is required. Only public post types listed by default."
+msgstr "Добавить поддержку для доступных зарегистрированных типов сообщений. По крайней мере, один требуется. Только публичные типы сообщений перечислены по умолчанию."
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:291
+msgid "We recommend %s for some extended customization and addition of extra fields regarding roles and capabilities."
+msgstr "Мы рекомендуем %s для расширенной настройки и добавления дополнительных полей, касающихся ролей и возможностей."
+
+#: inc/support.php:285
+msgid "Any help with customizing capabilities?"
+msgstr "Любая помощь с настройкой возможностей?"
+
+#: inc/post-types.php:1334
+msgid "(default: true) Should the permalink structure be prepended with the front base. (example: if your permalink structure is /blog/, then your links will be: false->/news/, true->/blog/news/)."
+msgstr "(по умолчанию: true) Должна ли структура постоянных ссылок быть добавлена к передней базе. (пример: если ваша структура постоянной ссылки /blog/, тогда ваши ссылки будут: false->/news/, true->/blog/news/)."
+
+#: inc/post-types.php:1213
+msgid "The post type to use for checking read, edit, and delete capabilities. A comma-separated second value can be used for plural version."
+msgstr "Тип записи, используемый для проверки возможностей чтения, редактирования и удаления. Второе значение, разделенное запятыми, может использоваться для множественной версии."
+
+#: inc/post-types.php:1121
+msgid "(default: WP_REST_Posts_Controller) Custom controller to use instead of WP_REST_Posts_Controller."
+msgstr "(по умолчанию: WP_REST_Posts_Controller) Пользовательский контроллер для использования вместо WP_REST_Posts_Controller."
+
+#: inc/post-types.php:1120 inc/taxonomies.php:1205
+msgid "REST API controller class"
+msgstr "Класс контроллера REST API"
+
+#: inc/post-types.php:1101
+msgid "(Custom Post Type UI default: true) Whether or not to show this post type data in the WP REST API."
+msgstr "(Пользовательский интерфейс пользовательского типа сообщения по умолчанию: true) Отображать или нет данные этого типа сообщения в API REST WP."
+
+#: inc/post-types.php:803
+msgid "Used in New in Admin menu bar. Default \"singular name\" label."
+msgstr "Используется в строке меню New in Admin. По умолчанию ярлык \"единственное имя\"."
+
+#: inc/post-types.php:802
+msgid "\"New\" menu in admin bar"
+msgstr "\"Новое\" меню в админке"
+
+#: inc/post-types.php:255 inc/taxonomies.php:259
+msgid "Slug already exists"
+msgstr "Slug уже существует"
+
+#. translators: %s: Total count of CPTUI registered taxonomies
+#: inc/listings.php:298
+msgid "Custom Post Type UI registered taxonomies count total: %d"
+msgstr "Пользовательский тип поста Пользовательский интерфейс Всего зарегистрированных таксономий: %d"
+
+#. translators: %s: Total count of registered CPTUI post types
+#: inc/listings.php:77
+msgid "Custom Post Type UI registered post types count total: %d"
+msgstr "Пользовательский интерфейс типа записей Пользовательский интерфейс Количество зарегистрированных сообщений: %d"
+
+#. translators: Placeholder will hold site home_url.
+#: classes/class.cptui_debug_info.php:236
+msgid "Custom Post Type UI debug information for %s"
+msgstr "Отладочная информация пользовательского интерфейса пользовательского типа для %s"
+
+#: inc/support.php:76
+msgid "View our Layouts page"
+msgstr "Посмотреть наши макеты страницы"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:72
+msgid "Please note that %1$s this plugin will not handle display %2$s of registered post types or taxonomies in your current theme. It simply registers them for you. To display your data, check out %3$s. %4$s to see some examples that are available with Custom Post Type UI Extended. If all else fails, visit us on the %5$s"
+msgstr "Обратите внимание, что %1$s этот плагин не будет обрабатывать отображение %2$s зарегистрированных типов сообщений или таксономий в вашей текущей теме. Он просто регистрирует их для вас. Чтобы отобразить данные, ознакомьтесь с %3$s. %4$s увидеть некоторые примеры, доступные с пользовательским пользовательским интерфейсом Custom Post Type Extended. Если все остальное не помогает, посетите нас на %5$s"
+
+#: inc/tools-sections/tools-get-code.php:19
+msgid "All of the selectable code snippets below are useful if you wish to migrate away from Custom Post Type UI and retain your existing registered post types or taxonomies."
+msgstr "Все приведенные ниже фрагменты кода, которые можно выбрать, полезны, если вы хотите перейти от пользовательского интерфейса пользовательских типов записей и сохранить существующие зарегистрированные типы записей или таксономии."
+
+#: inc/utility.php:723
+msgid "Invalid data provided"
+msgstr "Предоставлены неверные данные"
+
+#: inc/utility.php:712
+msgid "Successfully imported data."
+msgstr "Успешно импортированные данные."
+
+#: inc/post-types.php:1504
+msgid "Add support for various available post editor features on the right. A checked value means the post type feature is supported."
+msgstr "Добавьте поддержку различных доступных функций редактора постов справа. Проверенное значение означает, что функция типа сообщения поддерживается."
+
+#: inc/post-types.php:791
+msgid "(e.g. Movies Attributes)"
+msgstr "(например, атрибуты фильмов)"
+
+#: inc/post-types.php:787
+msgid "Used for the title of the post attributes meta box."
+msgstr "Используется для заголовка мета-поля атрибутов поста."
+
+#: inc/post-types.php:786
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: inc/post-types.php:550
+msgid "(e.g. View Movies)"
+msgstr "(напр., Просмотр фильмов)"
+
+#: inc/post-types.php:545
+msgid "View Items"
+msgstr "Просмотр элементов"
+
+#: inc/listings.php:201
+msgid "No associated taxonomies"
+msgstr "Не связанные таксономии"
+
+#: custom-post-type-ui.php:150
+msgid "Tools"
+msgstr "Инструменты"
+
+#: custom-post-type-ui.php:150
+msgid "Custom Post Type UI Tools"
+msgstr "Custom Post Type UI инструменты "
+
+#: inc/utility.php:609
+msgid "Object"
+msgstr "Объект"
+
+#: inc/utility.php:364
+msgid "Remove these ads?"
+msgstr "Удалить эту рекламу?"
+
+#: inc/taxonomies.php:1266
+msgid "(default: false) Whether to show the taxonomy in the quick/bulk edit panel."
+msgstr "(по умолчанию: false) Отображать ли таксономию на панели быстрого / массового редактирования."
+
+#: inc/taxonomies.php:1136
+msgid "(default: false) Should the permastruct allow hierarchical urls."
+msgstr "(по умолчанию: false). Если permastruct разрешает иерархические URL."
+
+#: inc/taxonomies.php:1075
+msgid "(default: true) Whether or not WordPress should use rewrites for this taxonomy."
+msgstr "(по умолчанию: true) следует ли WordPress использовать перезаписи для этой таксономии."
+
+#: inc/taxonomies.php:1039
+msgid "(default: true) Sets the query_var key for this taxonomy."
+msgstr "(по умолчанию: true) задает ключ query_var для этой таксономии."
+
+#: inc/taxonomies.php:1014
+msgid "(default: value of public) Whether to make the taxonomy available for selection in navigation menus."
+msgstr "(по умолчанию: значение public) следует ли сделать таксономию доступной для выбора в навигационных меню."
+
+#: inc/taxonomies.php:1013
+msgid "Show in nav menus"
+msgstr "Показывать в меню навигации"
+
+#: inc/taxonomies.php:989
+msgid "(default: value of show_ui) Whether to show the taxonomy in the admin menu."
+msgstr "(по умолчанию: значение show_ui) показывать ли таксономию в меню администратора."
+
+#: inc/taxonomies.php:988
+msgid "Show in menu"
+msgstr "Показать в меню"
+
+#: inc/taxonomies.php:964
+msgid "(default: true) Whether to generate a default UI for managing this custom taxonomy."
+msgstr "(по умолчанию: true) следует ли создавать пользовательский интерфейс по умолчанию для управления этой пользовательской таксономией."
+
+#: inc/taxonomies.php:125
+msgid "Import/Export Taxonomies"
+msgstr "Импорт/экспорт таксономии"
+
+#: inc/post-types.php:1713
+msgid "Add support for available registered taxonomies."
+msgstr "Добавить поддержку зарегистрированных таксономий."
+
+#: inc/post-types.php:1697
+msgid "Use this input to register custom \"supports\" values, separated by commas. Learn about this at %s"
+msgstr "Используйте этот ввод для регистрации пользовательских значений \"поддержки\", разделенных запятыми. Узнайте об этом на %s"
+
+#: inc/post-types.php:1442
+msgid "The top-level admin menu page file name for which the post type should be in the sub menu of."
+msgstr "Имя файла страницы меню администратора верхнего уровня, для которого тип сообщения должен быть в подменю."
+
+#: inc/post-types.php:1429
+msgid "(default: true) Whether or not to show the post type in the admin menu and where to show that menu."
+msgstr "(по умолчанию: true) Показывать или нет тип сообщения в меню администратора и где показывать это меню."
+
+#: inc/post-types.php:1387
+msgid "Available options"
+msgstr "Доступные параметры"
+
+#: inc/post-types.php:1381
+msgid "See %s in the \"menu_position\" section. Range of 5-100"
+msgstr "Смотрите %s в разделе \"menu_position\". Диапазон 5-100"
+
+#: inc/post-types.php:1360
+msgid "(default: true) Sets the query_var key for this post type."
+msgstr "(по умолчанию: true) Задает ключ, query_var за этот пост типа."
+
+#: inc/taxonomies.php:1111
+msgid "(default: true) Should the permastruct be prepended with the front base."
+msgstr "(по умолчанию: true) Permastruct должен добавляться с переднюю подставку."
+
+#: inc/post-types.php:1297
+msgid "(default: true) Whether or not WordPress should use rewrites for this post type."
+msgstr "(по умолчанию: true) Должен ли WordPress использовать переписывания для этого типа записей."
+
+#: inc/post-types.php:1161
+msgid "(default: false) Whether or not the post type will have a post type archive URL."
+msgstr "(по умолчанию: false) Будет ли тип записи иметь URL архива типа записи."
+
+#: inc/post-types.php:1049
+msgid "(Custom Post Type UI default: true) Whether or not this post type is available for selection in navigation menus."
+msgstr "(Пользовательский интерфейс пользовательского типа сообщения по умолчанию: true) Доступен ли этот тип сообщения для выбора в навигационных меню."
+
+#: inc/post-types.php:1023
+msgid "(default: true) Whether or not to generate a default UI for managing this post type."
+msgstr "(по умолчанию: true) Ли для создания пользовательского интерфейса по умолчанию для управления этот пост типа."
+
+#: inc/post-types.php:997
+msgid "(default: true) Whether or not queries can be performed on the front end as part of parse_request()"
+msgstr "(по умолчанию: true) Могут ли запросы выполняться во внешнем интерфейсе как часть parse_request ()"
+
+#: inc/post-types.php:996
+msgid "Publicly Queryable"
+msgstr "Публично запрашиваемыми"
+
+#: inc/post-types.php:971
+msgid "(Custom Post Type UI default: true) Whether or not posts of this type should be shown in the admin UI and is publicly queryable."
+msgstr "(Пользовательский интерфейс пользовательских типов сообщений по умолчанию: true) Должны ли публикации этого типа отображаться в пользовательском интерфейсе администратора и доступны ли они для общего доступа."
+
+#: inc/taxonomies.php:859
+msgid "Toggle panel: Settings"
+msgstr "Панель переключения: Параметры"
+
+#: inc/post-types.php:611
+msgid "Used for hierarchical types that need a colon."
+msgstr "Используется для иерархических типов, которым требуется двоеточие."
+
+#: inc/taxonomies.php:456
+msgid "Toggle panel: Additional labels"
+msgstr "Панель переключения: дополнительные ярлыки"
+
+#: inc/post-types.php:253 inc/taxonomies.php:257
+msgid "Slug has changed"
+msgstr "Slug изменился"
+
+#: inc/post-types.php:239 inc/post-types.php:405 inc/post-types.php:941
+#: inc/taxonomies.php:244
+msgid "Toggle panel: Basic settings"
+msgstr "Панель переключения: основные настройки"
+
+#: inc/post-types.php:122
+msgid "Import/Export Post Types"
+msgstr "Импорт/Экспорт типов записи"
+
+#: inc/listings.php:244
+msgid "*Replace \"post_slug\" with the slug of the actual post."
+msgstr "* Заменить \"post_slug\" на слаг фактической должности."
+
+#: inc/listings.php:164 inc/listings.php:378
+msgid "Get code"
+msgstr "Получить код"
+
+#. translators: Placeholder will hold the name of the author of the plugin.
+#: inc/about.php:132
+msgid "More from %s"
+msgstr "Ещё из %s"
+
+#: inc/about.php:77
+msgid "Thank you for choosing Custom Post Type UI! We hope that your experience with our plugin makes creating post types and taxonomies and organizing your content quick and easy."
+msgstr "Благодарим вас за выбор пользовательского интерфейса для типа пост! Мы надеемся, что ваш опыт с нашими плагин делает создание поста типы и таксономии и организовать ваше содержание быстро и легко."
+
+#: inc/utility.php:417
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: inc/utility.php:400
+msgid "Email address"
+msgstr "Адрес электронной почты"
+
+#: inc/utility.php:387
+msgid "Get email updates from pluginize.com about Custom Post Type UI"
+msgstr "Получить обновления по электронной почте от pluginize.com о пользовательского интерфейса типа в должности"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:183
+msgid "We encourage checking out %1$s for easily displaying post type content wherever you can utilize a shortcode. If you prefer to handle on your own, you will need to utilize the %2$s class to handle display in custom locations. If you have set the post type to have archives, the archive url should be something like \"http://www.mysite.com/post-type-slug\""
+msgstr "Мы рекомендуем проверить %1$s для легкого отображения контента типа поста везде, где вы можете использовать шорткод. Если вы предпочитаете обрабатывать самостоятельно, вам нужно будет использовать класс %2$s для обработки отображения в пользовательских расположениях. Если вы установили тип записи для архивов, URL-адрес архива должен быть чем-то вроде «http://www.mysite.com/post-type-slug»"
+
+#: inc/support.php:130
+msgid "No it does not. The Shortcode builder is not multisite dependent and will work with either setup."
+msgstr "Нет это не так. Короткий номер строитель зависит не семейств и будет работать с любой установки."
+
+#: inc/support.php:129
+msgid "Does Custom Post Type UI Extended require multisite?"
+msgstr "Пользовательские пост типа пользовательского интерфейса расширенной требует многосайтовой?"
+
+#: inc/support.php:125
+msgid "Yes you will. The Custom Post Type UI Extended is not a replacement of the free version with added extra features. It acts based on the data made available through Custom Post Type UI"
+msgstr "Да, вы будете. Пользовательский интерфейс расширенного пользовательского типа не заменяет бесплатную версию дополнительными функциями. Он действует на основе данных, предоставляемых через пользовательский интерфейс типа поста"
+
+#: inc/support.php:124
+msgid "Do I still need Custom Post Type UI if I purchase and install Custom Post Type UI Extended?"
+msgstr "Нужен ли пользовательский интерфейс пользовательского типа, если я приобрету и установлю пользовательский пользовательский интерфейс расширенного типа?"
+
+#: inc/support.php:120
+msgid "No, there is no data being sent out from your site with these. The only way anything is tracked is via UTM parameters for WebDevStudios's analytics so we can get an idea of where traffic is coming from. Those are only tracked if you actually click on an ad spot."
+msgstr "Нет, с этих сайтов не отправляются данные. Единственный способ отслеживать - это параметры UTM для аналитики WebDevStudios, чтобы мы могли понять, откуда идет трафик. Они отслеживаются только в том случае, если вы нажимаете на рекламное место."
+
+#: inc/support.php:119
+msgid "Are these ad spots tracking my personal information in any way?"
+msgstr "Эти объявления пятна отслеживаются мои персональные данные каким-либо образом?"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:108
+msgid "You can have them automatically removed from display via a purchased copy of %s."
+msgstr "Вы можете автоматически удалить их с экрана через купленную копию %s."
+
+#: inc/support.php:103
+msgid "How can I remove the ads that suddenly started showing up?"
+msgstr "Как удалить рекламу, которая неожиданно начала появляться?"
+
+#: inc/support.php:99
+msgid "No. These spots are intended for and will only be used for other available WebDevStudios products and services."
+msgstr "Нет. Эти места предназначены и будут использоваться только для других доступных продуктов и услуг WebDevStudios."
+
+#: inc/support.php:98
+msgid "Will these ad spots ever show third-party data?"
+msgstr "Эти объявления пятна всегда покажет данные третьих лиц?"
+
+#: inc/support.php:94
+msgid "Pluginize offers both free and paid WordPress plugins."
+msgstr "Pluginize предлагает как бесплатные, так и платные плагины для WordPress."
+
+#: inc/support.php:93
+msgid "What does Pluginize offer?"
+msgstr "Что предлагает Pluginize?"
+
+#: inc/support.php:89
+msgid "Pluginize is a marketplace of plugins by WebDevStudios."
+msgstr "Pluginize представляет собой рынок модулей WebDevStudios."
+
+#: inc/support.php:88
+msgid "What is Pluginize?"
+msgstr "Что такое Pluginize?"
+
+#: inc/support.php:85
+msgid "Pluginize"
+msgstr "Pluginize"
+
+#: inc/support.php:75
+msgid "CPTUI Extended"
+msgstr "Расширенный CPTUI"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated.
+#: inc/utility.php:120
+msgid "Support forums"
+msgstr "Форум поддержки"
+
+#: inc/utility.php:39
+msgid "About"
+msgstr "О нас"
+
+#: inc/utility.php:778
+msgid "Please provide a post type to attach to."
+msgstr "Пожалуйста, укажите тип сообщения для прикрепления."
+
+#: inc/taxonomies.php:1265
+msgid "Show in quick/bulk edit panel."
+msgstr "Показать в панели быстрого / массового редактирования."
+
+#: inc/taxonomies.php:759
+msgid "Screen reader text for the items list heading on the term listing screen."
+msgstr "Текст программы чтения с экрана для заголовка списка элементов на экране списка терминов."
+
+#: inc/taxonomies.php:757
+msgid "(e.g. Actors list)"
+msgstr "(напр., список актёров)"
+
+#: inc/taxonomies.php:743
+msgid "Screen reader text for the pagination heading on the term listing screen."
+msgstr "Текст программы чтения с экрана для заголовка нумерации страниц на экране списка терминов."
+
+#: inc/taxonomies.php:741
+msgid "(e.g. Actors list navigation)"
+msgstr "(напр., навигация по списку актеров)"
+
+#: inc/taxonomies.php:727
+msgid "Used when indicating that there are no terms in the given taxonomy associated with an object."
+msgstr "Используется, когда указывается, что в данной таксономии нет терминов, связанных с объектом."
+
+#: inc/taxonomies.php:726
+msgid "No terms"
+msgstr "Без условий"
+
+#: inc/taxonomies.php:725
+msgid "(e.g. No actors)"
+msgstr "(напр., Нет актёров)"
+
+#: inc/taxonomies.php:567
+msgid "Used at the top of the term editor screen and button text for a new taxonomy term."
+msgstr "Используется в верхней части экрана редактора терминов и текста кнопки для нового термина таксономии."
+
+#: inc/taxonomies.php:535
+msgid "Used in the admin bar when viewing editor screen for an existing taxonomy term."
+msgstr "Используется в панели администратора при просмотре экрана редактора для существующего термина таксономии."
+
+#: inc/taxonomies.php:519
+msgid "Used at the top of the term editor screen for an existing taxonomy term."
+msgstr "Используется в верхней части экрана редактора терминов для существующего термина таксономии."
+
+#: inc/taxonomies.php:503
+msgid "Used as tab text when showing all terms for hierarchical taxonomy while editing post."
+msgstr "Используется в качестве текста вкладки при отображении всех терминов для иерархической таксономии при редактировании публикации."
+
+#: inc/taxonomies.php:488
+msgid "Custom admin menu name for your taxonomy."
+msgstr "Название пользовательского меню администратора для вашей таксономии."
+
+#: inc/taxonomies.php:477
+msgid "Describe what your taxonomy is used for."
+msgstr "Опишите, для чего используется ваша таксономия."
+
+#: inc/taxonomies.php:308
+msgid "Used for the taxonomy admin menu item."
+msgstr "Используется для пункта меню администратора таксономии."
+
+#: inc/taxonomies.php:292
+msgid "Migrate terms to newly renamed taxonomy?"
+msgstr "Перенос условий на недавно переименованную таксономию?"
+
+#: inc/taxonomies.php:282
+msgid "DO NOT EDIT the taxonomy slug unless also planning to migrate terms. Changing the slug registers a new taxonomy entry."
+msgstr "НЕ РЕДАКТИРУЙТЕ блок таксономии, если только вы не планируете переносить термины. Изменение слага регистрирует новую запись таксономии."
+
+#: inc/taxonomies.php:269
+msgid "The taxonomy name/slug. Used for various queries for taxonomy content."
+msgstr "Название таксономии / slug. Используется для различных запросов контента таксономии."
+
+#: inc/taxonomies.php:118
+msgid "View Taxonomies"
+msgstr "Посмотреть таксономии"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/utility.php:804
+msgid "Please choose a different post type name. %s matches an existing page slug, which can cause conflicts."
+msgstr "Пожалуйста, выберите другое имя типа сообщения. %s соответствует существующему фрагменту страницы, что может вызвать конфликты."
+
+#: inc/post-types.php:1744 inc/taxonomies.php:381
+msgid "(WP Core)"
+msgstr "(Ядро WP)"
+
+#: inc/post-types.php:1485
+msgid "Choose image icon"
+msgstr "Выберите значок изображения"
+
+#: inc/post-types.php:1462
+msgid "Image URL or %sDashicon class name%s to use for icon. Custom image should be 20px by 20px."
+msgstr "URL изображения или %sимя класса Dashicon%s, используемое для значка. Пользовательское изображение должно быть 20 на 20 пикселей."
+
+#: inc/post-types.php:775
+msgid "(e.g. Movies list)"
+msgstr "(напр., Список фильмов)"
+
+#: inc/post-types.php:771
+msgid "Screen reader text for the items list heading on the post type listing screen."
+msgstr "Текст программы чтения с экрана для заголовка списка элементов на экране списка типов записей."
+
+#: inc/post-types.php:770 inc/taxonomies.php:758
+msgid "Items List"
+msgstr "Список элементов"
+
+#: inc/post-types.php:759
+msgid "(e.g. Movies list navigation)"
+msgstr "(например, навигация по списку фильмов)"
+
+#: inc/post-types.php:755
+msgid "Screen reader text for the pagination heading on the post type listing screen."
+msgstr "Текст программы чтения с экрана для заголовка нумерации страниц на экране списка типов записей."
+
+#: inc/post-types.php:754 inc/taxonomies.php:742
+msgid "Items List Navigation"
+msgstr "Навигация по списку элементов"
+
+#: inc/post-types.php:743
+msgid "(e.g. Filter movies list)"
+msgstr "(например, фильтровать список фильмов)"
+
+#: inc/post-types.php:739
+msgid "Screen reader text for the filter links heading on the post type listing screen."
+msgstr "Текст программы чтения с экрана для заголовков ссылок фильтра на экране списка типов сообщений."
+
+#: inc/post-types.php:738
+msgid "Filter Items List"
+msgstr "Фильтр списка  пунктов"
+
+#: inc/post-types.php:727
+msgid "(e.g. Uploaded to this movie)"
+msgstr "(например, загруженный в этот фильм)"
+
+#: inc/post-types.php:723
+msgid "Used as the \"Uploaded to this post\" or \"Uploaded to this page\" phrase for the post type."
+msgstr "Используется в качестве «Загруженный на этот пост» или «Загруженный на эту страницу» фраза типа пост."
+
+#: inc/post-types.php:722
+msgid "Uploaded to this Item"
+msgstr "Загрузить в этот элемент"
+
+#: inc/post-types.php:711
+msgid "(e.g. Insert into movie)"
+msgstr "(например, вставить в фильм)"
+
+#: inc/post-types.php:707
+msgid "Used as the \"Insert into post\" or \"Insert into page\" phrase for the post type."
+msgstr "Используется как фраза «Вставить в сообщение» или «Вставить в страницу» для типа сообщения."
+
+#: inc/post-types.php:706
+msgid "Insert into item"
+msgstr "Вставить в элемент"
+
+#: inc/post-types.php:695
+msgid "(e.g. Movie archives)"
+msgstr "(например, архивы кино)"
+
+#: inc/post-types.php:691
+msgid "Post type archive label used in nav menus."
+msgstr "Метка архива типа сообщения, используемая в навигационных меню."
+
+#: inc/post-types.php:679
+msgid "(e.g. Use as featured image for this movie)"
+msgstr "(например, использовать в качестве рекомендуемого изображения для этого фильма)"
+
+#: inc/post-types.php:675
+msgid "Used as the \"Use as featured image\" phrase for the post type."
+msgstr "Используется как фраза \"Использовать как изображение\" для типа записи."
+
+#: inc/post-types.php:674
+msgid "Use Featured Image"
+msgstr "Использовать рекомендуемое изображение"
+
+#: inc/post-types.php:663
+msgid "(e.g. Remove featured image for this movie)"
+msgstr "(напр., Удалить изображение записи для этого фильма)"
+
+#: inc/post-types.php:659
+msgid "Used as the \"Remove featured image\" phrase for the post type."
+msgstr "Используется как фраза «Удалить избранные изображения» для пост типа."
+
+#: inc/post-types.php:658
+msgid "Remove Featured Image"
+msgstr "Удалить рекомендуемое изображение"
+
+#: inc/post-types.php:647
+msgid "(e.g. Set featured image for this movie)"
+msgstr "(например, Установить рекомендуемое изображение для этого фильма)"
+
+#: inc/post-types.php:643
+msgid "Used as the \"Set featured image\" phrase for the post type."
+msgstr "Используется как фраза \"Установить рекомендуемое изображение\" для типа записи."
+
+#: inc/post-types.php:642
+msgid "Set Featured Image"
+msgstr "Установить рекомендуемое изображение"
+
+#: inc/post-types.php:631
+msgid "(e.g. Featured image for this movie)"
+msgstr "(напр., Изображение записи для этого фильма)"
+
+#: inc/post-types.php:627
+msgid "Used as the \"Featured Image\" phrase for the post type."
+msgstr "Используется как фраза «Избранные изображения» для пост типа."
+
+#: inc/post-types.php:594
+msgid "Used when there are no posts to display on the post type list trash screen."
+msgstr "Используется, когда нет сообщений для отображения на мусорном экране списка типов сообщений."
+
+#: inc/post-types.php:578
+msgid "Used when there are no posts to display on the post type list screen."
+msgstr "Используется, когда нет сообщений для отображения на экране списка типов сообщений."
+
+#: inc/post-types.php:562
+msgid "Used as the text for the search button on post type list screen."
+msgstr "Используется в качестве текста для кнопки поиска на экране списка типов сообщений."
+
+#: inc/post-types.php:530 inc/post-types.php:546
+msgid "Used in the admin bar when viewing editor screen for a published post in the post type."
+msgstr "Используется в панели администратора при просмотре экрана редактора для опубликованного сообщения в типе сообщения."
+
+#: inc/post-types.php:498
+msgid "Used at the top of the post editor screen for an existing post type post."
+msgstr "Используется в верхней части экрана редактора сообщений для существующего сообщения."
+
+#: inc/post-types.php:482
+msgid "Used at the top of the post editor screen for a new post type post."
+msgstr "Используется в верхней части экрана редактора сообщений для записи нового типа."
+
+#: inc/post-types.php:450 inc/post-types.php:466
+msgid "Used in the post type admin submenu."
+msgstr "Используется в подменю admin типа пост."
+
+#: inc/post-types.php:427
+msgid "Perhaps describe what your custom post type is used for?"
+msgstr "Возможно, опишите, для чего используется ваш пользовательский тип записи?"
+
+#: inc/post-types.php:426
+msgid "Post Type Description"
+msgstr "Тип описание"
+
+#: inc/post-types.php:401 inc/taxonomies.php:452
+msgid "Additional labels"
+msgstr "Дополнительные ярлыки"
+
+#: inc/post-types.php:317 inc/taxonomies.php:320
+msgid "Used when a singular label is needed."
+msgstr "Используется, когда требуется особая метка."
+
+#: inc/post-types.php:305
+msgid "Used for the post type admin menu item."
+msgstr "Используется для пункта меню типа администратора."
+
+#: inc/post-types.php:277
+msgid "DO NOT EDIT the post type slug unless also planning to migrate posts. Changing the slug registers a new post type entry."
+msgstr "НЕ РЕДАКТИРУЙТЕ слаг типа поста, если также не планируете переносить посты. Изменение слага регистрирует новую запись типа записи."
+
+#: inc/post-types.php:265
+msgid "The post type name/slug. Used for various queries for post type content."
+msgstr "Тип сообщения название / слаг. Используется для различных запросов к типу контента."
+
+#: inc/post-types.php:235 inc/taxonomies.php:240
+msgid "Basic settings"
+msgstr "Базовые настройки"
+
+#: inc/post-types.php:115
+msgid "View Post Types"
+msgstr "Посмотреть типы сообщений"
+
+#: inc/post-types.php:62 inc/taxonomies.php:65 inc/utility.php:1047
+msgid "Are you sure you want to delete this? Deleting will NOT remove created content."
+msgstr "Вы уверены, что хотите удалить это? Удаление НЕ удалит созданный контент."
+
+#: inc/taxonomies.php:1049
+msgid "(default: taxonomy slug). Query var needs to be true to use."
+msgstr "(по умолчанию: Taxonomy slug). Запрос var должен быть истинным для использования."
+
+#: inc/support.php:140
+msgid "Visit the Import/Export page and copy the export code into the import side on the left. Replace the space with an underscore and then click \"Import\". You should be able to delete the individual post types afterwards."
+msgstr "Посетите страницу импорта/экспорта и скопируйте код экспорт в стороне импорта на левой стороне. Заменить пространство с символом подчеркивания и нажмите кнопку «Импорт». Вы должны быть в состоянии удалить типы индивидуальный пост потом."
+
+#: inc/support.php:139
+msgid "I have post types with spaces in their slug and can not successfully delete them. How can I fix that?"
+msgstr "У меня есть типы записей с пробелами в их слаге, и я не могу их успешно удалить. Как я могу это исправить?"
+
+#: inc/post-types.php:1372
+msgid "Custom query var slug to use instead of the default."
+msgstr "Пользовательский запрос var slug для использования вместо значения по умолчанию."
+
+#: inc/post-types.php:1371
+msgid "(default: post type slug) Query var needs to be true to use."
+msgstr "(по умолчанию: пост типа slug) Запроса var должно быть true для использования."
+
+#: inc/post-types.php:1370
+msgid "Custom Query Var Slug"
+msgstr "Пользовательский запрос Var Slug"
+
+#: inc/post-types.php:1111 inc/taxonomies.php:1196
+msgid "Slug to use in REST API URLs."
+msgstr "Slug для использования в URL-адресах API REST."
+
+#: inc/post-types.php:1110 inc/taxonomies.php:1195
+msgid "REST API base slug"
+msgstr "Базовый  slug REST API"
+
+#: inc/post-types.php:1100 inc/taxonomies.php:1185
+msgid "Show in REST API"
+msgstr "Включить в REST"
+
+#: inc/post-types.php:1048
+msgid "Show in Nav Menus"
+msgstr "Показывать в меню навигации"
+
+#. translators: %s: Link to manage taxonomies section
+#: inc/listings.php:518
+msgid "No taxonomies registered for display. Visit %s to get started."
+msgstr "Нет таксономий, зарегистрированных для отображения. Посетите %s, чтобы начать."
+
+#: inc/listings.php:433
+msgid "*Replace \"term_slug\" with the slug of the actual taxonomy term."
+msgstr "* Замените \"term_slug\" на slug фактического таксономического термина."
+
+#: inc/post-types.php:690
+msgid "Archives"
+msgstr "Архивы"
+
+#. translators: 1st %s: Link to manage post types section 2nd %s Link text
+#: inc/listings.php:496
+msgid "No post types registered for display. Visit %s to get started."
+msgstr "Не пост типы зарегистрированы для отображения. Посетите %s для начала."
+
+#: inc/listings.php:251 inc/listings.php:439
+msgid "Template hierarchy Theme Handbook"
+msgstr "Шаблон иерархии Тематический справочник"
+
+#: inc/listings.php:235
+msgid "Single Posts file name examples."
+msgstr "Примеры имен файлов с одиночными сообщениями."
+
+#: inc/listings.php:229 inc/listings.php:424
+msgid "Archives file name examples."
+msgstr "Примеры имен файлов архивов."
+
+#: inc/listings.php:91 inc/listings.php:311
+msgid "Template Hierarchy"
+msgstr "Иерархия шаблонов"
+
+#: inc/tools-sections/tools-debug.php:39
+msgid "Send debug info"
+msgstr "Отправить отладочную информацию"
+
+#: inc/tools-sections/tools-debug.php:30
+msgid "Please provide an email address to send debug information to: "
+msgstr "Пожалуйста, укажите адрес электронной почты для отправки отладочной информации: "
+
+#: inc/tools-sections/tools-get-code.php:59
+msgid "%s Taxonomy"
+msgstr "Таксономия %s"
+
+#: inc/tools-sections/tools-get-code.php:34
+msgid "%s Post Type"
+msgstr "Тип записи %s"
+
+#: inc/tools.php:367
+msgid "This will not export the associated posts or taxonomy terms, just the settings."
+msgstr "Это не будет экспортировать связанные посты или условия таксономии, только настройки."
+
+#: inc/tools.php:82
+msgid "Debug Info"
+msgstr "Информация по отладке"
+
+#. translators: Placeholder will hold the plugin version.
+#: inc/about.php:94
+msgid "What's new in version %s"
+msgstr "Что нового в версии %s"
+
+#: classes/class.cptui_debug_info.php:24
+msgid "If you have sought support for Custom Post Type UI on the forums, you may be requested to send the information below to the plugin developer. Simply insert the email they provided in the input field at the bottom and click the \"Send debug info\" button. Only the data below will be sent to them."
+msgstr "Если вы искали поддержку пользовательского интерфейса пользовательского типа сообщений на форумах, вам может быть предложено отправить информацию ниже разработчику плагина. Просто вставьте адрес электронной почты, который они предоставили в поле ввода внизу, и нажмите кнопку «Отправить отладочную информацию». Им будут отправлены только данные ниже."
+
+#. Author URI of the plugin
+#: custom-post-type-ui.php
+msgid "https://webdevstudios.com/"
+msgstr "https://webdevstudios.com/"
+
+#. Author of the plugin
+#: custom-post-type-ui.php
+msgid "WebDevStudios"
+msgstr "WebDevStudios"
+
+#. Description of the plugin
+#: custom-post-type-ui.php
+msgid "Admin UI panel for registering custom post types and taxonomies"
+msgstr "Панель пользовательского интерфейса администратора для регистрации пользовательских типов записи и таксономий."
+
+#. Plugin URI of the plugin
+#: custom-post-type-ui.php
+msgid "https://github.com/WebDevStudios/custom-post-type-ui/"
+msgstr "https://github.com/WebDevStudios/custom-post-type-ui/"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/utility.php:765
+msgid "Please choose a different taxonomy name. %s is already registered."
+msgstr "Выберите другое название таксономии. %s уже зарегистрирован."
+
+#: inc/taxonomies.php:1579
+msgid "Please provide a taxonomy name"
+msgstr "Пожалуйста, укажите название таксономии"
+
+#: inc/taxonomies.php:1505
+msgid "Please provide a taxonomy to delete"
+msgstr "Пожалуйста, укажите таксономию для удаления"
+
+#: inc/taxonomies.php:1161
+msgid "(default: false) Whether to allow automatic creation of taxonomy columns on associated post-types."
+msgstr "(по умолчанию: false) Разрешить ли автоматическое создание столбцов таксономии для связанных типов постов."
+
+#: inc/taxonomies.php:1160
+msgid "Show Admin Column"
+msgstr "Показать Колонку администратора"
+
+#: inc/taxonomies.php:1135
+msgid "Rewrite Hierarchical"
+msgstr "Переписать иерархический"
+
+#: inc/taxonomies.php:1110
+msgid "Rewrite With Front"
+msgstr "Переписать с фронта"
+
+#: inc/taxonomies.php:1087
+msgid "Custom taxonomy rewrite slug."
+msgstr "Пользовательская таксономия переписывает slug."
+
+#: inc/taxonomies.php:1085
+msgid "(default: taxonomy name)"
+msgstr "(по умолчанию: Название таксономии)"
+
+#: inc/taxonomies.php:1051
+msgid "Sets a custom query_var slug for this taxonomy."
+msgstr "Задает пользовательский slug query_var для этой таксономии."
+
+#: inc/taxonomies.php:1050
+msgid "Custom Query Var String"
+msgstr "Строка настраиваемого запроса Var"
+
+#: inc/taxonomies.php:710
+msgid "Not found"
+msgstr "Не найдено"
+
+#: inc/taxonomies.php:709
+msgid "(e.g. No Actors found)"
+msgstr "(напр., Актеры не найдены)"
+
+#: inc/taxonomies.php:694
+msgid "Choose From Most Used"
+msgstr "Выберите из наиболее используемых"
+
+#: inc/taxonomies.php:693
+msgid "(e.g. Choose from the most used Actors)"
+msgstr "(напр., Выбрать из наиболее часто используемых актеров)"
+
+#: inc/taxonomies.php:678
+msgid "Add or Remove Items"
+msgstr "Добавить или удалить элементы"
+
+#: inc/taxonomies.php:677
+msgid "(e.g. Add or remove Actors)"
+msgstr "(напр., Добавить или удалить актеров)"
+
+#: inc/taxonomies.php:662
+msgid "Separate Items with Commas"
+msgstr "Отдельные элементы с запятыми"
+
+#: inc/taxonomies.php:661
+msgid "(e.g. Separate Actors with commas)"
+msgstr "(напр., Разделяйте актеров запятыми)"
+
+#: inc/taxonomies.php:646
+msgid "Popular Items"
+msgstr "Популярные элементы"
+
+#: inc/taxonomies.php:645
+msgid "(e.g. Popular Actors)"
+msgstr "(напр., Популярные актеры)"
+
+#: inc/taxonomies.php:630
+msgid "Search Items"
+msgstr "Найти элементы"
+
+#: inc/taxonomies.php:629
+msgid "(e.g. Search Actors)"
+msgstr "(напр., Поиск актеров)"
+
+#: inc/taxonomies.php:614
+msgid "Parent Item Colon"
+msgstr "Parent Item Colon"
+
+#: inc/taxonomies.php:613
+msgid "(e.g. Parent Actor:)"
+msgstr "(например, Родительский актер:)"
+
+#: inc/taxonomies.php:598
+msgid "Parent Item"
+msgstr "Родительская запись"
+
+#: inc/taxonomies.php:597
+msgid "(e.g. Parent Actor)"
+msgstr "(напр., Родительский актер)"
+
+#: inc/taxonomies.php:582
+msgid "New Item Name"
+msgstr "Имя нового элемента"
+
+#: inc/taxonomies.php:581
+msgid "(e.g. New Actor Name)"
+msgstr "(напр., Имя нового актера)"
+
+#: inc/taxonomies.php:565
+msgid "(e.g. Add New Actor)"
+msgstr "(напр., добавить нового актёра)"
+
+#: inc/taxonomies.php:550
+msgid "Update Item Name"
+msgstr "Обновить имя элемента"
+
+#: inc/taxonomies.php:549
+msgid "(e.g. Update Actor Name)"
+msgstr "(напр., Обновить имя актера)"
+
+#: inc/taxonomies.php:533
+msgid "(e.g. View Actor)"
+msgstr "(напр., Посмотреть актера)"
+
+#: inc/taxonomies.php:517
+msgid "(e.g. Edit Actor)"
+msgstr "(напр., Изменить актёра)"
+
+#: inc/taxonomies.php:501
+msgid "(e.g. All Actors)"
+msgstr "(напр., Все актеры)"
+
+#: inc/taxonomies.php:551 inc/taxonomies.php:583 inc/taxonomies.php:599
+#: inc/taxonomies.php:615 inc/taxonomies.php:631 inc/taxonomies.php:647
+#: inc/taxonomies.php:663 inc/taxonomies.php:679
+msgid "Custom taxonomy label. Used in the admin menu for displaying taxonomies."
+msgstr "Пользовательский таксономический ярлык. Используется в меню администратора для отображения таксономий."
+
+#: inc/taxonomies.php:434 inc/taxonomies.php:1367
+msgid "Add Taxonomy"
+msgstr "Добавить таксономию"
+
+#: inc/taxonomies.php:422 inc/taxonomies.php:1355
+msgid "Delete Taxonomy"
+msgstr "Удалить таксономию"
+
+#: inc/taxonomies.php:411 inc/taxonomies.php:1344
+msgid "Save Taxonomy"
+msgstr "Сохранить таксономию"
+
+#: inc/taxonomies.php:340
+msgid "Attach to Post Type"
+msgstr "Прикрепить к типу записи"
+
+#: inc/taxonomies.php:318
+msgid "(e.g. Actor)"
+msgstr "(напр., Актер)"
+
+#: inc/taxonomies.php:306 inc/taxonomies.php:486
+msgid "(e.g. Actors)"
+msgstr "(напр., актёры)"
+
+#: inc/taxonomies.php:254
+msgid "Taxonomy Slug"
+msgstr "Ярлык таксономии"
+
+#: inc/support.php:274
+msgid "Change text inside the post/page editor title field. Should be able to adapt as necessary."
+msgstr "Изменить текст внутри поля заголовка редактора поста / страницы. Должен быть в состоянии адаптироваться по мере необходимости."
+
+#: inc/support.php:273
+msgid "How do I filter the \"enter title here\" text in the post editor screen?"
+msgstr "Как отфильтровать текст \"введите название здесь\" на экране редактора сообщений?"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:262
+msgid "%1$s has an excellent %2$spost%3$s introducing users to the %4$sPosts 2 Posts%5$s plugin that should be a good start."
+msgstr "%1$s имеет отличную %2$sпост%3$s знакомя пользователей с плагином %4$sPosts 2 Posts%5$s который должен быть хорошим началом."
+
+#: inc/support.php:257
+msgid "Post relationships?"
+msgstr "Пост-отношения?"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:250
+msgid "Check out the %s function for documentation and usage examples."
+msgstr "Проверьте функцию %s для документации и примеров использования."
+
+#: inc/support.php:245
+msgid "How do I add a newly registered taxonomy to a post type that already exists?"
+msgstr "Как добавить недавно зарегистрированную таксономию в уже существующий тип записи?"
+
+#: inc/support.php:233
+msgid "How do I add custom metaboxes to my post type?"
+msgstr "Как добавить пользовательские метабоксы в мой тип записи?"
+
+#: inc/support.php:230
+msgid "Advanced"
+msgstr "Расширенные настройки"
+
+#: inc/support.php:195
+msgid "I have added categories and tags to my custom post type, but they do not appear in the archives."
+msgstr "Я добавил категории и теги в свой тип записей, но они не отображаются в архивах."
+
+#: inc/support.php:178
+msgid "How do I display my custom post type on my site?"
+msgstr "Как отобразить мой собственный тип записи на моем сайте?"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/support.php:170
+msgid "Please visit the %1$sTemplate Hierarchy%2$s page on the WordPress codex for details about available templates."
+msgstr "Пожалуйста, посетите страницу %1$sTemplate Hierarchy%2$s в кодексе WordPress для получения подробной информации о доступных шаблонах."
+
+#: inc/support.php:165
+msgid "What template files should I edit to alter my post type display?"
+msgstr "Какие файлы шаблонов я должен отредактировать, чтобы изменить отображение моего типа поста?"
+
+#: inc/support.php:162
+msgid "Front-end Display"
+msgstr "Внешний дисплей"
+
+#: inc/support.php:155
+msgid "Make sure your theme has post \"post-thumbnails\" theme support enabled."
+msgstr "Убедитесь, что в вашей теме включена поддержка тем \"post-thumbnails\"."
+
+#: inc/support.php:154
+msgid "I have added post thumbnail and/or post format support to my post type, but those do not appear when adding a post type post."
+msgstr "Я добавил миниатюру постов и / или поддержку формата поста в свой тип поста, но они не отображаются при добавлении поста типа поста."
+
+#: inc/support.php:151
+msgid "Renaming the slug for a post type or taxonomy creates a new entry in our saved option which gets registered as its own post type or taxonomy. Since the settings will be mirrored from the previous slug, you will just need to delete the previous version's entry."
+msgstr "Переименование пули для типа записи или таксономии создает новую запись в нашей сохраненной опции, которая регистрируется как его собственный тип записи или таксономия. Поскольку настройки будут зеркально отражены от предыдущего слага, вам просто нужно удалить запись предыдущей версии."
+
+#: inc/support.php:150
+msgid "I changed my custom post type or taxonomy slug and now I have duplicates shown. How do I remove the duplicate?"
+msgstr "Я изменил свой пользовательский тип записи или слаг таксономии, и теперь у меня отображаются дубликаты. Как мне удалить дубликаты?"
+
+#: inc/support.php:145
+msgid "You can either change the custom post type name back to the original name or try the Post Type Switcher plugin"
+msgstr "Вы можете либо изменить собственное имя типа записи обратно на исходное имя, либо попробовать плагин Post Type Switcher"
+
+#: inc/support.php:144
+msgid "I changed my custom post type name and now I can not get to my posts. How do I get them back?"
+msgstr "Я изменил свое собственное имя типа сообщения и теперь не могу попасть на него. Как мне их вернуть?"
+
+#: inc/support.php:136
+msgid "General"
+msgstr "Общее"
+
+#: inc/support.php:77
+msgid "Support Forums"
+msgstr "Форумы поддержки"
+
+#: inc/support.php:66
+msgid "Custom Post Type UI Support"
+msgstr "Поддержка пользовательского интерфейса типа поста"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: inc/utility.php:750
+msgid "Please choose a different post type name. %s is already registered."
+msgstr "Пожалуйста, выберите другое имя типа сообщения. %s уже зарегистрирован."
+
+#: inc/utility.php:818
+msgid "Please do not use quotes in post type/taxonomy names or rewrite slugs"
+msgstr "Пожалуйста, не используйте кавычки в названиях типов постов / таксономий или переписывайте слагов"
+
+#: inc/post-types.php:2015
+msgid "Please provide a post type name"
+msgstr "Пожалуйста, укажите название типа сообщения"
+
+#: inc/post-types.php:1942
+msgid "Please provide a post type to delete"
+msgstr "Пожалуйста, укажите тип сообщения для удаления"
+
+#: inc/post-types.php:1753
+msgid "Adds %s support"
+msgstr "Добавляет поддержку %s"
+
+#: inc/post-types.php:1704
+msgid "Provide custom support slugs here."
+msgstr "Обеспечивает поддержку пользовательских slugs здесь."
+
+#: inc/post-types.php:1696 inc/post-types.php:1697
+msgid "Custom \"Supports\""
+msgstr "Пользовательские \" Поддержки\""
+
+#: inc/post-types.php:1688
+msgid "None"
+msgstr "Отсутствует"
+
+#: inc/post-types.php:1506
+msgid "Use the \"None\" option to explicitly set \"supports\" to false."
+msgstr "Используйте параметр «None» явно задать «поддерживает» значение false."
+
+#: inc/post-types.php:1675
+msgid "Post Formats"
+msgstr "Форматы записи"
+
+#: inc/post-types.php:1662
+msgid "Page Attributes"
+msgstr "Атрибуты страницы"
+
+#: inc/post-types.php:1649
+msgid "Author"
+msgstr "Автор"
+
+#: inc/post-types.php:626 inc/post-types.php:1571
+msgid "Featured Image"
+msgstr "Популярные изображения"
+
+#: inc/post-types.php:1636
+msgid "Revisions"
+msgstr "Редакции"
+
+#: inc/post-types.php:1623
+msgid "Comments"
+msgstr "Комментарии"
+
+#: inc/post-types.php:1610
+msgid "Custom Fields"
+msgstr "Кастомные поля"
+
+#: inc/post-types.php:1597
+msgid "Trackbacks"
+msgstr "Обратные ссылки"
+
+#: inc/post-types.php:1584
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: inc/post-types.php:1554
+msgid "Editor"
+msgstr "Редактор"
+
+#: inc/post-types.php:1537
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/post-types.php:1460
+msgid "(Full URL for icon or Dashicon class)"
+msgstr "(Полный URL для иконки или класса Dashicon)"
+
+#: inc/post-types.php:1453
+msgid "Menu Icon"
+msgstr "Иконка меню"
+
+#: inc/post-types.php:1406
+msgid "\"Show UI\" must be \"true\". If an existing top level page such as \"tools.php\" is indicated for second input, post type will be sub menu of that."
+msgstr "\"Show UI\" должно быть «true». Если для второго ввода указана существующая страница верхнего уровня, такая как \"tools.php\", то тип публикации будет подменю этого."
+
+#: inc/post-types.php:1405
+msgid "Show in Menu"
+msgstr "Показывать в меню"
+
+#: inc/post-types.php:1398
+msgid "The position in the menu order the post type should appear. show_in_menu must be true."
+msgstr "Положение в порядке меню должно отображать тип сообщения. show_in_menu должно быть true."
+
+#: inc/post-types.php:1377
+msgid "Menu Position"
+msgstr "Положение в меню"
+
+#: inc/post-types.php:1359 inc/taxonomies.php:1038
+msgid "Query Var"
+msgstr "Запрос Var"
+
+#: inc/post-types.php:1333
+msgid "With Front"
+msgstr "Лицевая (Главная) страница"
+
+#: inc/post-types.php:1309
+msgid "Custom post type slug to use instead of the default."
+msgstr "Настраиваемый тип записи для использования вместо значения по умолчанию."
+
+#: inc/post-types.php:1308
+msgid "(default: post type slug)"
+msgstr "(по умолчанию: ярлык типа записей)"
+
+#: inc/post-types.php:1307 inc/taxonomies.php:1086
+msgid "Custom Rewrite Slug"
+msgstr "Пользовательская перезапись Slug"
+
+#: inc/post-types.php:1296 inc/taxonomies.php:1074
+msgid "Rewrite"
+msgstr "Перезапись"
+
+#: inc/post-types.php:1218 inc/post-types.php:1242 inc/taxonomies.php:938
+msgid "Hierarchical"
+msgstr "Иерархическая структура"
+
+#: inc/post-types.php:1212
+msgid "Capability Type"
+msgstr "Тип возможности"
+
+#: inc/post-types.php:1201
+msgid "Exclude From Search"
+msgstr "Исключить из поиска"
+
+#: inc/post-types.php:1174
+msgid "Slug to be used for archive URL."
+msgstr "Slug, который будет использоваться для URL-адреса архива."
+
+#: inc/post-types.php:1138
+msgid "If left blank, the archive slug will default to the post type slug."
+msgstr "Если оставить это поле пустым, по умолчанию архивная ветка будет иметь тип сообщения."
+
+#: inc/post-types.php:1137
+msgid "Has Archive"
+msgstr "Имеет архив"
+
+#: inc/post-types.php:1022 inc/taxonomies.php:963
+msgid "Show UI"
+msgstr "Показать Интерфейс"
+
+#: inc/post-types.php:970 inc/taxonomies.php:888
+msgid "Public"
+msgstr "Публичный"
+
+#: external/wpgraphql.php:213 inc/post-types.php:958 inc/post-types.php:984
+#: inc/post-types.php:1010 inc/post-types.php:1036 inc/post-types.php:1063
+#: inc/post-types.php:1088 inc/post-types.php:1150 inc/post-types.php:1190
+#: inc/post-types.php:1231 inc/post-types.php:1259 inc/post-types.php:1284
+#: inc/post-types.php:1321 inc/post-types.php:1347 inc/post-types.php:1417
+#: inc/taxonomies.php:877 inc/taxonomies.php:902 inc/taxonomies.php:928
+#: inc/taxonomies.php:952 inc/taxonomies.php:977 inc/taxonomies.php:1002
+#: inc/taxonomies.php:1027 inc/taxonomies.php:1063 inc/taxonomies.php:1099
+#: inc/taxonomies.php:1125 inc/taxonomies.php:1150 inc/taxonomies.php:1174
+#: inc/taxonomies.php:1230 inc/taxonomies.php:1255 inc/taxonomies.php:1280
+msgid "True"
+msgstr "True"
+
+#: external/wpgraphql.php:209 inc/post-types.php:954 inc/post-types.php:980
+#: inc/post-types.php:1006 inc/post-types.php:1032 inc/post-types.php:1058
+#: inc/post-types.php:1084 inc/post-types.php:1145 inc/post-types.php:1185
+#: inc/post-types.php:1226 inc/post-types.php:1254 inc/post-types.php:1280
+#: inc/post-types.php:1317 inc/post-types.php:1343 inc/post-types.php:1413
+#: inc/taxonomies.php:873 inc/taxonomies.php:898 inc/taxonomies.php:923
+#: inc/taxonomies.php:948 inc/taxonomies.php:973 inc/taxonomies.php:998
+#: inc/taxonomies.php:1023 inc/taxonomies.php:1059 inc/taxonomies.php:1095
+#: inc/taxonomies.php:1120 inc/taxonomies.php:1145 inc/taxonomies.php:1170
+#: inc/taxonomies.php:1225 inc/taxonomies.php:1250 inc/taxonomies.php:1275
+msgid "False"
+msgstr "Ложь"
+
+#: inc/post-types.php:615
+msgid "(e.g. Parent Movie:)"
+msgstr "(например, Родительский фильм:)"
+
+#: inc/post-types.php:610
+msgid "Parent"
+msgstr "Родительская запись"
+
+#: inc/post-types.php:598
+msgid "(e.g. No Movies found in Trash)"
+msgstr "(напр., Фильмы не найдены в корзине)"
+
+#: inc/post-types.php:593
+msgid "Not Found in Trash"
+msgstr "Не знайдено у чернетках"
+
+#: inc/post-types.php:582
+msgid "(e.g. No Movies found)"
+msgstr "(напр., Фильмов не найдено)"
+
+#: inc/post-types.php:577
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: inc/post-types.php:566
+msgid "(e.g. Search Movies)"
+msgstr "(напр., Поиск фильмов)"
+
+#: inc/post-types.php:561
+msgid "Search Item"
+msgstr "Найти листинг"
+
+#: inc/post-types.php:534
+msgid "(e.g. View Movie)"
+msgstr "(напр. Просмотр фильма)"
+
+#: inc/post-types.php:529 inc/taxonomies.php:534
+msgid "View Item"
+msgstr "Просмотреть"
+
+#: inc/post-types.php:518
+msgid "(e.g. New Movie)"
+msgstr "(напр. Новый фильм)"
+
+#: inc/post-types.php:513
+msgid "New Item"
+msgstr "Новая запись"
+
+#: inc/post-types.php:502
+msgid "(e.g. Edit Movie)"
+msgstr "(напр., Редактировать фильм)"
+
+#: inc/post-types.php:497 inc/taxonomies.php:518
+msgid "Edit Item"
+msgstr "Редактировать"
+
+#: inc/post-types.php:486
+msgid "(e.g. Add New Movie)"
+msgstr "(напр., Добавить новый фильм)"
+
+#: inc/post-types.php:481 inc/taxonomies.php:566
+msgid "Add New Item"
+msgstr "Добавить новый элемент"
+
+#: inc/post-types.php:470
+msgid "(e.g. Add New)"
+msgstr "(например, Добавлять новые)"
+
+#: inc/post-types.php:465
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: inc/post-types.php:454
+msgid "(e.g. All Movies)"
+msgstr "(напр., Все фильмы)"
+
+#: inc/post-types.php:449 inc/taxonomies.php:502
+msgid "All Items"
+msgstr "Все элементы"
+
+#: inc/post-types.php:438
+msgid "(e.g. My Movies)"
+msgstr "(напр. Мои Фильмы)"
+
+#: inc/post-types.php:434
+msgid "Custom admin menu name for your custom post type."
+msgstr "Имя пользовательского меню администратора для вашего пользовательского типа сообщения."
+
+#: inc/post-types.php:433 inc/taxonomies.php:487
+msgid "Menu Name"
+msgstr "Название меню"
+
+#: inc/post-types.php:381 inc/post-types.php:1810
+msgid "Add Post Type"
+msgstr "Добавить тип записи"
+
+#: inc/post-types.php:369 inc/post-types.php:1798
+msgid "Delete Post Type"
+msgstr "Удалить тип записи"
+
+#: inc/post-types.php:358 inc/post-types.php:1787
+msgid "Save Post Type"
+msgstr "Сохранить тип записи"
+
+#: inc/post-types.php:287
+msgid "Migrate posts to newly renamed post type?"
+msgstr "Перенести записи на недавно переименованный тип записей?"
+
+#: inc/taxonomies.php:476
+msgid "Description"
+msgstr "Описание"
+
+#: inc/post-types.php:316 inc/post-types.php:807
+msgid "(e.g. Movie)"
+msgstr "(напр. Фильм)"
+
+#: inc/post-types.php:315 inc/taxonomies.php:319
+msgid "Singular Label"
+msgstr "В единст. числе"
+
+#: inc/post-types.php:514
+msgid "Post type label. Used in the admin menu for displaying post types."
+msgstr "Метка типа пост. Используется в меню администратора для отображения типов должность."
+
+#: inc/post-types.php:304
+msgid "(e.g. Movies)"
+msgstr "(напр. Фильмы)"
+
+#: inc/post-types.php:303 inc/taxonomies.php:307
+msgid "Plural Label"
+msgstr "В множ. числе"
+
+#: inc/post-types.php:249
+msgid "Post Type Slug"
+msgstr "Ярлык для типа записи"
+
+#: inc/post-types.php:214 inc/taxonomies.php:219
+msgid "Select"
+msgstr "Выбрать"
+
+#: inc/post-types.php:200 inc/taxonomies.php:205
+msgid "Select: "
+msgstr "Выбрать:"
+
+#: inc/listings.php:307
+msgid "Taxonomy"
+msgstr "Таксономия"
+
+#: inc/listings.php:223 inc/listings.php:418
+msgid "No custom labels to display"
+msgstr "Без пользовательских меток для отображения"
+
+#: inc/listings.php:169
+msgid "View frontend archive"
+msgstr "Просмотреть внешний интерфейс"
+
+#: inc/listings.php:90 inc/listings.php:310
+msgid "Labels"
+msgstr "Этикетки"
+
+#: inc/listings.php:88 inc/post-types.php:1502
+msgid "Supports"
+msgstr "Поддержка"
+
+#: inc/listings.php:86
+msgid "Post Type"
+msgstr "Тип записи"
+
+#: inc/tools-sections/tools-post-types.php:40
+msgid "No post types to display at this time"
+msgstr "В настоящее время нет типов сообщений для отображения"
+
+#: inc/tools-sections/tools-taxonomies.php:37
+msgid "No taxonomies to display at this time"
+msgstr "В настоящее время нет таксономий для отображения"
+
+#: inc/tools-sections/tools-get-code.php:23
+#: inc/tools-sections/tools-get-code.php:36
+#: inc/tools-sections/tools-get-code.php:48
+#: inc/tools-sections/tools-get-code.php:63
+msgid "Copy/paste the code below into your functions.php file."
+msgstr "Скопируйте / вставьте приведенный ниже код в ваш файл functions.php."
+
+#: inc/tools-sections/tools-get-code.php:15
+msgid "Get Post Type and Taxonomy Code"
+msgstr "Получить тип сообщения и код таксономии"
+
+#: inc/tools.php:452
+msgid "Use the content above to import current taxonomies into a different WordPress site. You can also use this to simply back up your taxonomy settings."
+msgstr "Используйте содержимое выше, чтобы импортировать текущие таксономии в другой сайт WordPress. Вы также можете использовать это для простого резервного копирования настроек таксономии."
+
+#: inc/tools.php:446
+msgid "No taxonomies registered yet."
+msgstr "Таксономии еще не зарегистрированы."
+
+#: inc/tools.php:427
+msgid "To import taxonomies from a different WordPress site, paste the exported content from that site and click the \"Import\" button."
+msgstr "Чтобы импортировать таксономии с другого сайта WordPress, вставьте экспортированный контент с этого сайта и нажмите кнопку \"Импорт\"."
+
+#: inc/tools.php:417
+msgid "Import Taxonomies"
+msgstr "Импорт таксономии"
+
+#: inc/tools.php:410
+msgid "Use the content above to import current post types into a different WordPress site. You can also use this to simply back up your post type settings."
+msgstr "Используйте содержимое выше, чтобы импортировать текущие типы записей на другой сайт WordPress. Вы также можете использовать это, чтобы просто создать резервную копию настроек типа вашего сообщения."
+
+#: inc/tools.php:407 inc/tools.php:449
+msgid "To copy the system info, click below then press Ctrl + C (PC) or Cmd + C (Mac)."
+msgstr "Чтобы скопировать информацию о системе, щёлкните мышью внизу, а затем нажмите Ctrl + C (для PC) или Cmd + C (для Mac)."
+
+#: inc/tools.php:404
+msgid "No post types registered yet."
+msgstr "Типы не поста зарегистрированы."
+
+#: inc/tools.php:389 inc/tools.php:431
+msgid "Import"
+msgstr "Импорт"
+
+#: inc/tools.php:385
+msgid "To import post types from a different WordPress site, paste the exported content from that site and click the \"Import\" button."
+msgstr "Чтобы импортировать типы записей с другого сайта WordPress, вставьте экспортированный контент с этого сайта и нажмите кнопку \"Импорт\"."
+
+#: inc/tools.php:381 inc/tools.php:423
+msgid "Importing will overwrite previous registered settings."
+msgstr "Импорт перезапишет предыдущие зарегистрированные настройки."
+
+#: inc/tools.php:381 inc/tools.php:423
+msgid "Note:"
+msgstr "Примечание:"
+
+#: inc/tools.php:378 inc/tools.php:420
+msgid "Paste content here."
+msgstr "Вставьте содержимое здесь."
+
+#: inc/tools.php:375
+msgid "Import Post Types"
+msgstr "Импорт типов постов"
+
+#: inc/tools.php:366
+msgid "NOTE"
+msgstr "ЗАМЕТКА"
+
+#: inc/tools.php:360
+msgid "If you are wanting to migrate registered post types or taxonomies from this site to another, that will also use Custom Post Type UI, use the import and export functionality. If you are moving away from Custom Post Type UI, use the information in the \"Get Code\" tab."
+msgstr "Если вы хотите перенести зарегистрированные типы записей или таксономии с этого сайта на другой, который также будет использовать пользовательский интерфейс пользовательских типов записей, используйте функцию импорта и экспорта. Если вы переходите от пользовательского интерфейса пользовательского типа, используйте информацию на вкладке \"Получить код\"."
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1064 custom-post-type-ui.php:1112
+#: inc/taxonomies.php:698
+msgid "Choose from the most used %s"
+msgstr "Выбрать из часто используемых %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1063 custom-post-type-ui.php:1111
+#: inc/taxonomies.php:682
+msgid "Add or remove %s"
+msgstr "Добавить или удалить %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1062 custom-post-type-ui.php:1110
+#: inc/taxonomies.php:666
+msgid "Separate %s with commas"
+msgstr "Разделять %s запятыми"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1061 custom-post-type-ui.php:1104
+#: inc/taxonomies.php:586
+msgid "New %s name"
+msgstr "Название нового %s"
+
+#: custom-post-type-ui.php:1059 custom-post-type-ui.php:1102
+msgid "Update %s"
+msgstr "Обновить %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1057 custom-post-type-ui.php:1100
+#: inc/post-types.php:618 inc/taxonomies.php:618
+msgid "Parent %s:"
+msgstr "Родитель %s:"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1056 custom-post-type-ui.php:1099
+#: inc/taxonomies.php:602
+msgid "Parent %s"
+msgstr "Родительская запись %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1054 custom-post-type-ui.php:1108
+#: inc/taxonomies.php:650
+msgid "Popular %s"
+msgstr "Популярные %s"
+
+#: custom-post-type-ui.php:1050 custom-post-type-ui.php:1094
+msgid "No %s found in trash."
+msgstr "%s не найден в корзине."
+
+#: custom-post-type-ui.php:1049 custom-post-type-ui.php:1093
+msgid "No %s found."
+msgstr "%s не найден."
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1048 custom-post-type-ui.php:1053
+#: custom-post-type-ui.php:1092 custom-post-type-ui.php:1107
+#: inc/post-types.php:569 inc/taxonomies.php:634
+msgid "Search %s"
+msgstr "Поиск %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1047 custom-post-type-ui.php:1055
+#: custom-post-type-ui.php:1091 custom-post-type-ui.php:1109
+#: inc/post-types.php:457 inc/taxonomies.php:506
+msgid "All %s"
+msgstr "Все %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1045 custom-post-type-ui.php:1046
+#: custom-post-type-ui.php:1087 custom-post-type-ui.php:1090
+#: inc/post-types.php:537 inc/post-types.php:553 inc/taxonomies.php:538
+msgid "View %s"
+msgstr "Просмотр %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1044 custom-post-type-ui.php:1086
+#: inc/post-types.php:521
+msgid "New %s"
+msgstr "Новый %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1043 custom-post-type-ui.php:1058
+#: custom-post-type-ui.php:1085 custom-post-type-ui.php:1101
+#: inc/post-types.php:505 inc/taxonomies.php:522
+msgid "Edit %s"
+msgstr "Редактировать %s"
+
+#. translators: Used for autofill
+#: custom-post-type-ui.php:1042 custom-post-type-ui.php:1060
+#: custom-post-type-ui.php:1084 custom-post-type-ui.php:1103
+#: inc/post-types.php:489 inc/taxonomies.php:570
+msgid "Add new %s"
+msgstr "Добавить новый %s"
+
+#: custom-post-type-ui.php:958
+msgid "%s has failed to be imported"
+msgstr "%s не удалось импортировать"
+
+#: custom-post-type-ui.php:956
+msgid "%s has been successfully imported"
+msgstr "%s успешно импортировано"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:952 inc/utility.php:698
+msgid "%s has failed to be deleted"
+msgstr "%s не удалось удалить"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:950 inc/utility.php:683
+msgid "%s has been successfully deleted"
+msgstr "%s успешно удалено"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:946 inc/utility.php:667
+msgid "%s has failed to be updated"
+msgstr "%s не удалось обновить"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:944 inc/utility.php:652
+msgid "%s has been successfully updated"
+msgstr "%s успешно обновлено"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:940 inc/utility.php:636
+msgid "%s has failed to be added"
+msgstr "%s не удалось добавить"
+
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated
+#: custom-post-type-ui.php:938 inc/utility.php:621
+msgid "%s has been successfully added"
+msgstr "%s успешно добавлено"
+
+#: inc/utility.php:40
+msgid "Help"
+msgstr "Помощь"
+
+#: inc/listings.php:87 inc/listings.php:308 inc/post-types.php:937
+#: inc/taxonomies.php:855
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/tools.php:75
+msgid "Get Code"
+msgstr "Получить код"
+
+#: inc/listings.php:89 inc/listings.php:291 inc/post-types.php:1711
+#: inc/tools.php:68
+msgid "Taxonomies"
+msgstr "Таксономии"
+
+#: inc/listings.php:70 inc/listings.php:309 inc/tools.php:61
+msgid "Post Types"
+msgstr "Типы записей"
+
+#: inc/taxonomies.php:111
+msgid "Edit Taxonomies"
+msgstr "Редактировать таксономии"
+
+#: inc/listings.php:67 inc/taxonomies.php:93
+msgid "Add New Taxonomy"
+msgstr "Добавить новую таксономию"
+
+#: inc/post-types.php:108
+msgid "Edit Post Types"
+msgstr "Редактировать типы записей"
+
+#: inc/listings.php:66 inc/post-types.php:90
+msgid "Add New Post Type"
+msgstr "Добавить новый тип записи"
+
+#: inc/utility.php:136
+msgid "Follow on Twitter:"
+msgstr "Следить в Twitter:"
+
+#. Plugin Name of the plugin
+#. translators: Placeholder will hold the name of the plugin, version of the
+#. plugin and a link to WebdevStudios.
+#. translators: Placeholders are just for HTML markup that doesn't need
+#. translated.
+#: custom-post-type-ui.php inc/about.php:64 inc/utility.php:113
+#: inc/utility.php:131
+msgid "Custom Post Type UI"
+msgstr "Пользовательский тип записи"
+
+#: custom-post-type-ui.php:165
+msgid "About CPT UI"
+msgstr "О плагине CPT UI"
+
+#: custom-post-type-ui.php:151
+msgid "Help/Support"
+msgstr "Помощь/Поддержка"
+
+#: custom-post-type-ui.php:149
+msgid "Registered Types/Taxes"
+msgstr "Зарегистрированные типы / налоги"
+
+#: custom-post-type-ui.php:149
+msgid "Registered Types and Taxes"
+msgstr "Зарегистрированные типы / налоги"
+
+#: custom-post-type-ui.php:148 inc/listings.php:522
+msgid "Add/Edit Taxonomies"
+msgstr "Добавить/изменить таксономию"
+
+#: custom-post-type-ui.php:147 inc/listings.php:500
+msgid "Add/Edit Post Types"
+msgstr "Добавить/изменить типы записей"
+
+#: custom-post-type-ui.php:146
+msgid "CPT UI"
+msgstr "CPT UI"
+
+#: custom-post-type-ui.php:146
+msgid "Custom Post Types"
+msgstr "Произвольные типы записей"

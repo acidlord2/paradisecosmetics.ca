@@ -1,0 +1,927 @@
+# Translation of Plugins - Load More Products for WooCommerce - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Load More Products for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-14 17:36:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Load More Products for WooCommerce - Stable (latest release)\n"
+
+#: berocket/includes/updater.php:1257
+msgid "There is a new version %1$s of %2$s available. But <a href=\"%3$s\">Activation required to update</a>."
+msgstr "Новая версия %1$s . %2$s доступна. Но <a href=\"%3$s\">Но требуется активация для обновления</a>."
+
+#: berocket/includes/admin_notices.php:710
+#: berocket/includes/admin_notices.php:752
+#: berocket/includes/admin_notices.php:946
+#: berocket/includes/admin_notices.php:965
+#: berocket/includes/error_notices.php:36
+#: berocket/includes/information_notices.php:246
+#: berocket/includes/updater.php:284 berocket/includes/updater.php:330
+msgid "Do not have access for this feature"
+msgstr "Нет доступа к этой функции"
+
+#: berocket/includes/updater.php:1164
+msgid "View details"
+msgstr "Показать детали"
+
+#: berocket/includes/updater.php:1149
+msgid "one time"
+msgstr "один раз"
+
+#: berocket/includes/updater.php:1134
+msgid "Free"
+msgstr "Бесплатно"
+
+#. translators: %s vendor link
+#: berocket/includes/updater.php:1112
+msgid "Developed by %s"
+msgstr "Разработано %s"
+
+#: main.php:581
+msgid "JavaScript/CSS"
+msgstr "JavaScript/CSS"
+
+#: berocket/includes/settings_fields.php:184
+msgid "Field can be changed only by %s"
+msgstr "Поле может быть изменено только %s"
+
+#: berocket/includes/settings_fields.php:183
+msgid "ADMIN"
+msgstr "АДМИНИСТРАТОР"
+
+#: berocket/includes/settings_fields.php:183
+msgid "MULTISITE ADMIN"
+msgstr "МУЛЬТИСАЙТ АДМИНИСТРАТОР"
+
+#: main.php:609
+msgid "From WooCommerce"
+msgstr "Из WooCommerce"
+
+#: berocket/libraries/feature_tab.php:42
+msgid "Features"
+msgstr "Функционал"
+
+#: berocket/libraries/feature_tab.php:42
+msgid "Premium"
+msgstr "Премиум"
+
+#: berocket/libraries/feature_tab.php:29
+msgid "Upgrade"
+msgstr "Обновление"
+
+#: berocket/libraries/feature_tab.php:28
+msgid "Upgrade to Premium "
+msgstr "Обновить до Premium "
+
+#: berocket/libraries/addons/addons.php:110
+msgid "Inactive Addons"
+msgstr "Неактивные дополнения"
+
+#: berocket/libraries/addons/addons.php:106
+msgid "Active Addons"
+msgstr "Активные аддоны"
+
+#: berocket/libraries/addons/addons.php:153
+#: berocket/libraries/templates/templates.php:164
+msgid "Go Premium"
+msgstr "Перейти на Премиум"
+
+#: berocket/includes/custom_post.php:288
+msgid "Save/update notice"
+msgstr "Уведомление о сохранении/обновлении"
+
+#: berocket/includes/custom_post.php:288
+msgid "Save"
+msgstr "Сохранить"
+
+#: berocket/includes/custom_post.php:278
+msgid "Move to Trash"
+msgstr "Удалить"
+
+#: berocket/includes/custom_post.php:276
+msgid "Delete Permanently"
+msgstr "Удалить навсегда"
+
+#: berocket/includes/custom_post.php:240
+msgid "Copy"
+msgstr "Копировать"
+
+#: berocket/includes/custom_post.php:229
+msgid "Do not copy"
+msgstr "Не копировать"
+
+#: berocket/includes/custom_post.php:217
+msgid "Copy settings from"
+msgstr "Копировать настройки из"
+
+#: berocket/includes/custom_post.php:216
+msgid "Save content"
+msgstr "Сохранить контент"
+
+#: berocket/includes/custom_post.php:193
+msgid "Name"
+msgstr "Имя"
+
+#: berocket/includes/custom_post.php:164
+msgctxt "BeRocket_domain"
+msgid "Disable"
+msgstr "Oтключить"
+
+#: berocket/includes/custom_post.php:157
+msgctxt "BeRocket_domain"
+msgid "Enable"
+msgstr "Включить"
+
+#: berocket/includes/widget.php:51
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: berocket/includes/admin_notices.php:1732
+msgid "I already rated it"
+msgstr "Я уже оценил"
+
+#: berocket/includes/admin_notices.php:1724
+msgid "I'll rate it next time"
+msgstr "Я оценю его потом"
+
+#: berocket/includes/admin_notices.php:1722
+msgid "This plugin deserves 5 stars"
+msgstr "Этот плагин заслуживает 5 звёзд"
+
+#: berocket/includes/admin_notices.php:1711
+msgid "While you're here, you could rate this plugin"
+msgstr "Пока вы здесь, вы могли бы оценить этот плагин"
+
+#: berocket/includes/admin_notices.php:1699
+msgid "SEND FEATURE REQUEST"
+msgstr "Запросить функционал"
+
+#: berocket/includes/admin_notices.php:1698
+msgid "Feature Description"
+msgstr "Описание функции"
+
+#: berocket/includes/admin_notices.php:1697
+msgid "Email (optional)"
+msgstr "Email (опционально)"
+
+#: berocket/includes/admin_notices.php:1696
+msgid "Feature Title"
+msgstr "Название функции"
+
+#: berocket/includes/admin_notices.php:1278
+msgid "Get it now"
+msgstr "Получить сейчас"
+
+#: berocket/includes/admin_notices.php:1007
+msgid "Support the plugin by setting good feedback.<br>We really need this."
+msgstr "Поддержите плагин, установив хороший отзыв.<br>Нам это очень нужно."
+
+#: berocket/includes/admin_notices.php:996
+msgid "May we ask you to give us a 5-star feedback?"
+msgstr "Можем ли мы попросить вас дать нам 5-звездочный отзыв?"
+
+#: berocket/includes/admin_notices.php:874
+msgid "Already"
+msgstr "Уже"
+
+#: berocket/includes/admin_notices.php:873
+msgid "I already did"
+msgstr "Я уже это сделал"
+
+#: berocket/includes/admin_notices.php:862
+msgid "Later"
+msgstr "Позже"
+
+#: berocket/includes/admin_notices.php:861
+msgid "Maybe later"
+msgstr "Возможно, позже"
+
+#: berocket/includes/admin_notices.php:851
+#: berocket/includes/admin_notices.php:1006
+msgid "Ok, you deserved it"
+msgstr "Хорошо, вы это заслужили"
+
+#: berocket/includes/admin_notices.php:849
+#: berocket/includes/admin_notices.php:1004
+#: berocket/includes/admin_notices.php:1720
+msgid "Each good feedback is very important for plugin growth"
+msgstr "Каждый хороший отзыв очень важен для развития плагина."
+
+#: berocket/includes/admin_notices.php:837
+msgid "May we ask you to give our plugin %plugin_name% a 5-star rating?"
+msgstr "Можем ли мы попросить вас дать нашему плагину %plugin_name% 5-звездочный рейтинг?"
+
+#: berocket/includes/admin_notices.php:836
+msgid "Awesome, you've been using %plugin_name% Plugin for more than 1 week. May we ask you to give it a 5-star rating on WordPress?"
+msgstr "Отлично, вы используете плагин %plugin_name% уже более 1 недели. Можем ли мы попросить вас дать ему 5-звездочный рейтинг на WordPress?"
+
+#: berocket/includes/custom_post/enable_disable.php:139
+msgid "Disabled"
+msgstr "Отключено"
+
+#: berocket/includes/custom_post/enable_disable.php:131
+msgid "Enabled"
+msgstr "Включено"
+
+#: berocket/includes/custom_post/enable_disable.php:87
+msgid "Invalid post type."
+msgstr "Неверный тип записи."
+
+#: berocket/includes/custom_post/enable_disable.php:84
+msgid "The item you are trying to change status no longer exists."
+msgstr "Элемент, статус которого вы пытаетесь изменить, больше не существует."
+
+#: berocket/includes/custom_post/enable_disable.php:63
+#: berocket/includes/custom_post/enable_disable.php:90
+msgid "Sorry, you are not allowed to change this item status."
+msgstr "Извините, вы не можете изменить статус этого элемента."
+
+#: berocket/includes/custom_post.php:163
+#: berocket/includes/custom_post/enable_disable.php:40
+msgid "Disable"
+msgstr "Отключено"
+
+#: berocket/includes/custom_post.php:156
+#: berocket/includes/custom_post/enable_disable.php:37
+msgid "Enable"
+msgstr "Включено"
+
+#: berocket/includes/custom_post/sortable.php:110
+msgid "Order"
+msgstr "Порядок"
+
+#: berocket/includes/conditions.php:490
+msgid "Any"
+msgstr "Любой"
+
+#: berocket/includes/conditions.php:489
+msgid "Backorder allowed"
+msgstr "Разрешен отложенный заказ"
+
+#: berocket/includes/conditions.php:487
+msgid "Products in stock"
+msgstr "Товары на складе"
+
+#: berocket/includes/conditions.php:453
+msgid "day(s)"
+msgstr "день(дни)"
+
+#: berocket/includes/conditions.php:426
+msgid "Select attribute"
+msgstr "Выбрать атрибут"
+
+#: berocket/includes/conditions.php:398
+msgid "Include subcategories"
+msgstr "Включить подкатегории"
+
+#: berocket/includes/conditions.php:278
+msgid "On Backorder"
+msgstr "По предзаказу"
+
+#: berocket/includes/conditions.php:277
+msgid "Out of stock"
+msgstr "Распродано"
+
+#: berocket/includes/conditions.php:276
+msgid "In stock"
+msgstr "В наличии"
+
+#: berocket/includes/conditions.php:252
+msgid "Without tax"
+msgstr "Без налога"
+
+#: berocket/includes/conditions.php:251
+msgid "With tax"
+msgstr "С налогом"
+
+#: berocket/includes/conditions.php:250
+msgid "Product price"
+msgstr "Цена товара"
+
+#: berocket/includes/conditions.php:248 berocket/includes/conditions.php:466
+#: berocket/includes/conditions.php:479
+msgid "To:"
+msgstr "До:"
+
+#: berocket/includes/conditions.php:247 berocket/includes/conditions.php:465
+#: berocket/includes/conditions.php:478
+msgid "From:"
+msgstr "От:"
+
+#: berocket/includes/conditions.php:231
+msgid "Has Rating:"
+msgstr "Рейтинг:"
+
+#: berocket/includes/conditions.php:185 berocket/includes/conditions.php:296
+msgid "Count of product"
+msgstr "Количество товара"
+
+#: berocket/includes/conditions.php:177 berocket/includes/conditions.php:234
+#: berocket/includes/conditions.php:492
+msgid "No"
+msgstr "Нет"
+
+#: berocket/includes/conditions.php:176 berocket/includes/conditions.php:233
+#: berocket/includes/conditions.php:491
+msgid "Yes"
+msgstr "Да"
+
+#: berocket/includes/conditions.php:175
+msgid "Is on sale"
+msgstr "Со скидкой"
+
+#: berocket/includes/conditions.php:105
+msgid "Product Category"
+msgstr "Категория товара"
+
+#: berocket/includes/conditions.php:104
+msgid "Product Search"
+msgstr "Поиск товара"
+
+#: berocket/includes/conditions.php:103
+msgid "Product Attribute"
+msgstr "Атрибут товара"
+
+#: berocket/includes/conditions.php:102
+msgid "Page ID"
+msgstr "ID страницы"
+
+#: berocket/includes/conditions.php:100
+msgid "Product Rating"
+msgstr "Рейтинг товара"
+
+#: berocket/includes/conditions.php:99
+msgid "Product Type"
+msgstr "Тип товара"
+
+#: berocket/includes/conditions.php:98
+msgid "Shipping Class"
+msgstr "Класс доставки"
+
+#: berocket/includes/conditions.php:97
+msgid "Featured"
+msgstr "Рекомендуемые"
+
+#: berocket/includes/conditions.php:96
+msgid "Stock quantity"
+msgstr "Количество на складе"
+
+#: berocket/includes/conditions.php:95
+msgid "Regular price"
+msgstr "Обычная цена"
+
+#: berocket/includes/conditions.php:94
+msgid "Sale price"
+msgstr "Цена распродажи"
+
+#: berocket/includes/conditions.php:93
+msgid "Product age"
+msgstr "Возраст товара"
+
+#: berocket/includes/conditions.php:92
+msgid "Product attribute"
+msgstr "Атрибут товара"
+
+#: berocket/includes/conditions.php:91
+msgid "Category"
+msgstr "Рубрика"
+
+#: berocket/includes/conditions.php:90
+msgid "Total sales"
+msgstr "Всего продаж"
+
+#: berocket/includes/conditions.php:89
+msgid "Stock status"
+msgstr "Статус наличия"
+
+#: berocket/includes/conditions.php:88
+msgid "Price"
+msgstr "Цена"
+
+#: berocket/includes/conditions.php:87
+msgid "Bestsellers"
+msgstr "Популярные"
+
+#: berocket/includes/conditions.php:86
+msgid "On Sale"
+msgstr "Со скидкой"
+
+#: berocket/includes/conditions.php:85
+msgid "Product"
+msgstr "Товар"
+
+#: berocket/includes/updater.php:682
+msgid "Select plugin"
+msgstr "Выберите плагин"
+
+#: berocket/includes/updater.php:680
+msgid "Errors"
+msgstr "Ошибки"
+
+#: berocket/includes/updater.php:646
+msgid "Account key"
+msgstr "Ключ учетной записи"
+
+#: berocket/includes/updater.php:643
+msgid "Enable debug mode"
+msgstr "Включить режим отладки"
+
+#: berocket/includes/updater.php:640
+msgid "DEBUG MODE"
+msgstr "РЕЖИМ ОТЛАДКИ"
+
+#: berocket/includes/updater.php:524
+msgid "BeRocket Account"
+msgstr "учетной записи BeRocket"
+
+#: berocket/includes/updater.php:524 berocket/includes/updater.php:538
+#: berocket/includes/updater.php:636
+msgid "BeRocket Account Settings"
+msgstr "Настройки учетной записи BeRocket"
+
+#: berocket/includes/updater.php:240
+msgid "BeRocket Account settings"
+msgstr "настройках учетной записи BeRocket"
+
+#: berocket/includes/updater.php:239
+msgid "You can activate plugin in"
+msgstr "Вы можете активировать плагин в"
+
+#: berocket/includes/updater.php:238
+msgid "BeRocket account"
+msgstr "Учётная запись BeRocket"
+
+#: berocket/includes/updater.php:237
+msgid "with help of plugin/account key from"
+msgstr "с помощью плагина/ключа учетной записи от"
+
+#: berocket/includes/updater.php:237
+msgid "activate plugin"
+msgstr "активируйте плагин"
+
+#: berocket/includes/updater.php:237
+msgid "Please"
+msgstr "Пожалуйста,"
+
+#: berocket/includes/updater.php:144 berocket/includes/updater.php:538
+msgid "Account Keys"
+msgstr "Ключи учетной записи"
+
+#: berocket/includes/conditions.php:125 berocket/includes/functions.php:359
+msgid "Equal or more"
+msgstr "Больше или равно"
+
+#: berocket/includes/conditions.php:122 berocket/includes/functions.php:356
+msgid "Equal or less"
+msgstr "Меньше или равно"
+
+#: berocket/includes/conditions.php:119 berocket/includes/functions.php:353
+msgid "Not equal"
+msgstr "Не равно"
+
+#: berocket/includes/conditions.php:118 berocket/includes/functions.php:352
+msgid "Equal"
+msgstr "Ровно"
+
+#: berocket/includes/functions.php:311
+msgid "Enter 3 or more characters"
+msgstr "Введите 3 или более символов"
+
+#: berocket/includes/functions.php:249 berocket/includes/functions.php:282
+msgid "Font Awesome"
+msgstr "Шрифт Awesome"
+
+#: berocket/includes/functions.php:198 berocket/includes/functions.php:251
+#: berocket/includes/functions.php:284
+msgid "Remove"
+msgstr "Удалить"
+
+#: berocket/includes/functions.php:196 berocket/includes/functions.php:248
+msgid "Upload"
+msgstr "Загрузить"
+
+#: berocket/includes/functions.php:168
+msgid "Default"
+msgstr "По умолчанию"
+
+#: berocket/framework.php:814
+msgid "Key for plugin from BeRocket.com"
+msgstr "Ключ плагина с BeRocket.com"
+
+#: berocket/framework.php:808
+msgid "Plugin key"
+msgstr "Ключ плагина"
+
+#: berocket/framework.php:678 berocket/framework.php:910
+#: berocket/includes/updater.php:677
+msgid "Save Changes"
+msgstr "Сохранить Изменения"
+
+#: berocket/framework.php:492
+msgid "Close"
+msgstr "Закрыть"
+
+#: berocket/framework.php:491
+msgid "Next"
+msgstr "Далее"
+
+#: berocket/framework.php:341
+msgid "Premium Version"
+msgstr "Премиум-версия"
+
+#: berocket/framework.php:340
+msgid "View Premium Version Page"
+msgstr "Просмотреть страницу премиум-версии"
+
+#: berocket/framework.php:337
+msgid "Premium Support"
+msgstr "Премиум поддержка"
+
+#: berocket/framework.php:336
+msgid "View Premium Support Page"
+msgstr "Просмотреть страницу премиум-поддержки"
+
+#: berocket/framework.php:332
+msgid "Support"
+msgstr "Поддержка"
+
+#: berocket/framework.php:331
+msgid "View Support Page"
+msgstr "Просмотреть страницу поддержки"
+
+#: berocket/framework.php:326
+msgid "Docs"
+msgstr "Документация"
+
+#: berocket/framework.php:325
+msgid "View Plugin Documentation"
+msgstr "Просмотреть документацию по плагину"
+
+#: berocket/framework.php:304
+msgid "View Plugin Settings"
+msgstr "Просмотр настроек плагина"
+
+#: main.php:1206
+msgid "Save settings with new selectors"
+msgstr "Сохраните настройки с обновлёнными селекторами"
+
+#: main.php:1205
+msgid "Wait until end <strong style=\"color:red;\">do not close this page</strong>"
+msgstr "Дождитесь завершения работы: <strong style=\"color:red;\">не закрывайте страницу</strong>"
+
+#: main.php:1204
+msgid "Run Auto-selector"
+msgstr "Запустите автовыбор"
+
+#: main.php:1202
+msgid "How it work:"
+msgstr "Как это работает:"
+
+#: main.php:1200
+msgid "Get selectors automatically"
+msgstr "Автоподбор селекторов"
+
+#: main.php:1198
+msgid "OR"
+msgstr "ИЛИ"
+
+#: includes/main.php:193 main.php:1191
+msgid "Steps:"
+msgstr "Шаги:"
+
+#: includes/main.php:192 main.php:1190
+msgid "Stop"
+msgstr "Остановить"
+
+#: includes/main.php:191 main.php:1189
+msgid "Auto-Selectors"
+msgstr "Подобрать селекторы"
+
+#: includes/main.php:190 main.php:1188
+msgid "Script was runned, but page closed until end. Please stop it to prevent any problems on your site"
+msgstr "Страница была закрыта до завершения работы скрипта. Пожалуйста, остановите его, чтобы предотвратить любые проблемы на вашем сайте"
+
+#: includes/main.php:189 main.php:1187
+msgid "IMPORTANT: It will generate some products on your site. Please disable all SEO plugins and plugins, that doing anything on product creating."
+msgstr "ВАЖНО: на вашем сайте будет создано несколько товаров. Пожалуйста, отключите все SEO-плагины и плагины, которые что-либо делают при создании товара."
+
+#: includes/main.php:37 main.php:1184
+msgid "Error:"
+msgstr "Ошибка :"
+
+#: includes/main.php:36 includes/main.php:196 main.php:1183 main.php:1194
+msgid "Removing products"
+msgstr "Удаление товаров"
+
+#: includes/main.php:35 includes/main.php:195 main.php:1182 main.php:1193
+msgid "Gettings selectors"
+msgstr "Получение селекторов"
+
+#: includes/main.php:34 includes/main.php:194 main.php:1181 main.php:1192
+msgid "Creating products"
+msgstr "Создание товаров"
+
+#: main.php:1148 main.php:1171
+msgid "Set all to default"
+msgstr "Вернуть значения по умолчанию"
+
+#: main.php:1137
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: main.php:1104
+msgid "Custom CSS"
+msgstr "Произвольный CSS"
+
+#: main.php:1100
+msgid "Version of Font Awesome that will be used on front end. Please select version that you have in your theme"
+msgstr "Версия Font Awesome, которая будет использоваться во внешнем интерфейсе сайта. Пожалуйста, выберите версию, которая используется в вашей теме"
+
+#: main.php:1097
+msgid "Font Awesome 5"
+msgstr "Font Awesome 5"
+
+#: main.php:1096
+msgid "Font Awesome 4"
+msgstr "Font Awesome 4"
+
+#: main.php:1092
+msgid "Font Awesome Version"
+msgstr "Версия Font Awesome"
+
+#: main.php:1089
+msgid "Don't loading css file for Font Awesome on site front end. Use it only if you doesn't uses Font Awesome icons in widgets or you have Font Awesome in your theme."
+msgstr "Не загружать CSS-файл Font Awesome во внешнем интерфейсе сайта. Делайте это только в том случае, если вы не используете значки Font Awesome в виджетах или в вашей теме уже есть Font Awesome."
+
+#: main.php:1085
+msgid "Disable Font Awesome"
+msgstr "Отключить Font Awesome"
+
+#: main.php:1116
+msgid "After Update"
+msgstr "После обновления"
+
+#: main.php:1110
+msgid "Before Update"
+msgstr "Перед обновлением"
+
+#: main.php:863
+msgid "Enable Previous Button"
+msgstr "Включить кнопку «Предыдущие»"
+
+#: main.php:852 main.php:1073
+msgid "Btm-Right"
+msgstr "СнизуСправа"
+
+#: main.php:844 main.php:1065
+msgid "Btm-Left"
+msgstr "СнизуСлева"
+
+#: main.php:836 main.php:1057
+msgid "Top-Right"
+msgstr "СверхуСправа"
+
+#: main.php:828 main.php:1049
+msgid "Top-Left"
+msgstr "СверхуСлева"
+
+#: main.php:819 main.php:1040
+msgid "Border radius"
+msgstr "Скругление рамки"
+
+#: main.php:781 main.php:1002
+msgid "Border"
+msgstr "Рамка"
+
+#: main.php:743 main.php:964
+msgid "Margin"
+msgstr "Внешний отступ"
+
+#: main.php:738 main.php:776 main.php:814 main.php:959 main.php:997
+#: main.php:1035
+msgid "Left"
+msgstr "Слева"
+
+#: main.php:730 main.php:768 main.php:806 main.php:951 main.php:989
+#: main.php:1027
+msgid "Bottom"
+msgstr "Снизу"
+
+#: main.php:722 main.php:760 main.php:798 main.php:943 main.php:981
+#: main.php:1019
+msgid "Right"
+msgstr "Справа"
+
+#: main.php:714 main.php:752 main.php:790 main.php:935 main.php:973
+#: main.php:1011
+msgid "Top"
+msgstr "Сверху"
+
+#: main.php:705 main.php:926
+msgid "Paddings"
+msgstr "Внутренние отступы"
+
+#: main.php:697 main.php:918
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: main.php:690 main.php:911
+msgid "Text color on mouse over"
+msgstr "Цвет текста при наведении мыши"
+
+#: main.php:683 main.php:904
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: main.php:676 main.php:897
+msgid "Border color"
+msgstr "Цвет рамки"
+
+#: main.php:669 main.php:890
+msgid "Background color on mouse over"
+msgstr "Цвет фона при наведении мыши"
+
+#: main.php:662 main.php:883
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: main.php:654 main.php:875
+msgid "Text on button"
+msgstr "Текст на кнопке"
+
+#: main.php:648 main.php:869
+msgid "Custom Class"
+msgstr "Произвольный класс"
+
+#: main.php:640
+msgid "JavaScript and CSS is used on WooCommerce pages only"
+msgstr "JavaScript и CSS используются только на страницах WooCommerce"
+
+#: main.php:634
+msgid "Don't update url when next page shown"
+msgstr "Не обновлять URL при отображении следующей страницы"
+
+#: main.php:628
+msgid "Buffer Pixels"
+msgstr "Резервные пиксели"
+
+#: main.php:623
+msgid "Rotate image on load"
+msgstr "Вращение изображения при загрузке"
+
+#: main.php:612
+msgid "Loading Image"
+msgstr "Изображение загрузки"
+
+#: main.php:605
+msgid "Products per page"
+msgstr "Товаров на странице"
+
+#: main.php:600
+msgid "Load More Button + AJAX Pagination"
+msgstr "Кнопка «Загрузить еще» + постраничная навигация AJAX"
+
+#: main.php:599
+msgid "AJAX Pagination"
+msgstr "Постраничная навигация AJAX"
+
+#: main.php:598
+msgid "Load More Button"
+msgstr "Кнопка «Загрузить еще»"
+
+#: main.php:597
+msgid "Infinity Scroll"
+msgstr "Бесконечная прокрутка"
+
+#: main.php:596
+msgid "None"
+msgstr "Отсутствует"
+
+#: main.php:592
+msgid "Products Loading Type"
+msgstr "Тип загрузки товаров"
+
+#: main.php:585
+msgid "License"
+msgstr "Лицензия"
+
+#: main.php:577
+msgid "Selectors"
+msgstr "Селекторы"
+
+#: main.php:573
+msgid "Previous-Settings"
+msgstr "«Предыдущие»"
+
+#: main.php:569
+msgid "Button-Settings"
+msgstr "Настройки кнопки"
+
+#: main.php:565
+msgid "General"
+msgstr "Общие"
+
+#: main.php:551
+msgid "Previous Page Selector"
+msgstr "Селектор ссылки на предыдущую страницу"
+
+#: main.php:544
+msgid "Next Page Selector"
+msgstr "Селектор ссылки на следующую страницу"
+
+#: main.php:537
+msgid "Pagination Selector"
+msgstr "Селектор постраничной навигации"
+
+#: main.php:530
+msgid "Product Item Selector"
+msgstr "Селектор товара"
+
+#: main.php:523
+msgid "Products Container Selector"
+msgstr "Селектор контейнера товаров"
+
+#. translators: 1: first result 2: last result 3: total results
+#: main.php:369
+msgctxt "with first and last result"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] "Отображён единственный товар"
+msgstr[1] "Отображены %1$d&ndash;%2$d из %3$d"
+msgstr[2] "Отображено %1$d&ndash;%2$d из %3$d"
+
+#. translators: 1: first result 2: last result 3: total results
+#: main.php:361
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] "Отображён %1$d&ndash;%2$d из %3$d"
+msgstr[1] "Отображены %1$d&ndash;%2$d из %3$d"
+msgstr[2] "Отображено %1$d&ndash;%2$d из %3$d"
+
+#. translators: %d: total results
+#: main.php:358
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] "Отображён %d товар"
+msgstr[1] "Отображены %d товара"
+msgstr[2] "Отображено %d товаров"
+
+#. translators: %d: total results
+#: main.php:355 main.php:366
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] "Отображён единственный товар"
+msgstr[1] "Отображены все %d товара"
+msgstr[2] "Отображены все %d товаров"
+
+#: berocket/framework.php:305 berocket/framework.php:571
+#: berocket/templates/settings.php:17 main.php:306
+msgid "Settings"
+msgstr "Настройки"
+
+#: main.php:169 main.php:454
+msgid "No more products"
+msgstr "Все товары загружены"
+
+#: main.php:167 main.php:453
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: main.php:111
+msgid "Load Previous"
+msgstr "Загрузить предыдущие"
+
+#: main.php:66
+msgid "Load More"
+msgstr "Загрузить ещё"
+
+#. Author URI of the plugin
+#: load-more-products.php
+msgid "https://berocket.com?utm_source=free_plugin&utm_medium=plugins&utm_campaign=BeRocket_LMP"
+msgstr "https://berocket.com?utm_source=free_plugin&utm_medium=plugins&utm_campaign=BeRocket_LMP"
+
+#. Author of the plugin
+#: load-more-products.php
+msgid "BeRocket"
+msgstr "BeRocket"
+
+#. Description of the plugin
+#: load-more-products.php
+msgid "Infinite Scrolling, AJAX Products Loading. Free version."
+msgstr "Бесконечная прокрутка, AJAX загрузка товаров. Бесплатная версия."
+
+#. Plugin URI of the plugin
+#: load-more-products.php
+msgid "https://wordpress.org/plugins/load-more-products-for-woocommerce/?utm_source=free_plugin&utm_medium=plugins&utm_campaign=BeRocket_LMP"
+msgstr "https://ru.wordpress.org/plugins/load-more-products-for-woocommerce/?utm_source=free_plugin&utm_medium=plugins&utm_campaign=BeRocket_LMP"
+
+#. Plugin Name of the plugin
+#: load-more-products.php
+msgid "WooCommerce Load More Products"
+msgstr "WooCommerce Load More Products"

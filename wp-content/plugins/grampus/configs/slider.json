@@ -1,0 +1,395 @@
+{
+	"key": "group_gse_slider",
+	"title": "Параметры слайдера",
+	"fields": [
+		{
+			"key": "field_settings_tab",
+			"label": "Настройки",
+			"name": "",
+			"type": "tab",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"placement": "left",
+			"endpoint": 0
+		},
+		{
+			"key": "field_settings_mode",
+			"label": "Анимация",
+			"name": "mode",
+			"type": "button_group",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"choices": {
+				"slide": "Сдвиг",
+				"fade": "Исчезновение",
+				"coverflow": "Перекрытие"
+			},
+			"allow_null": 0,
+			"default_value": "slide",
+			"layout": "horizontal",
+			"return_format": "value"
+		},
+		{
+			"key": "field_settings_duration",
+			"label": "Длительность анимации",
+			"name": "duration",
+			"type": "range",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": 1,
+			"min": "0.5",
+			"max": 3,
+			"step": "0.5",
+			"prepend": "",
+			"append": "с"
+		},
+		{
+			"key": "field_settings_delay",
+			"label": "Время автопереключения слайдера",
+			"name": "delay",
+			"type": "range",
+			"instructions": "0 - слайды переключаются вручную",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"default_value": 3,
+			"min": 0,
+			"max": 6,
+			"step": 1,
+			"prepend": "",
+			"append": "с"
+		},
+		{
+			"key": "field_settings_sizes",
+			"label": "Размеры",
+			"name": "sizes",
+			"type": "group",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"layout": "table",
+			"sub_fields": [
+				{
+					"key": "field_settings_sizes_width",
+					"label": "Ширина",
+					"name": "width",
+					"type": "number",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": 0,
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"default_value": "",
+					"placeholder": "",
+					"prepend": "",
+					"append": "",
+					"min": "",
+					"max": "",
+					"step": ""
+				},
+				{
+					"key": "field_settings_sizes_height",
+					"label": "Высота",
+					"name": "height",
+					"type": "number",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": 0,
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"default_value": "",
+					"placeholder": "",
+					"prepend": "",
+					"append": "",
+					"min": "",
+					"max": "",
+					"step": ""
+				}
+			]
+		},
+		{
+			"key": "field_slides_tab",
+			"label": "Слайды",
+			"name": "",
+			"type": "tab",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"placement": "left",
+			"endpoint": 0
+		},
+		{
+			"key": "field_slides",
+			"label": "",
+			"name": "slides",
+			"type": "repeater",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"collapsed": "field_slides_image",
+			"min": 0,
+			"max": 0,
+			"layout": "block",
+			"button_label": "",
+			"sub_fields": [
+				{
+					"key": "field_slides_image",
+					"label": "Изображение",
+					"name": "image",
+					"type": "image",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": 0,
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"return_format": "id",
+					"preview_size": "full",
+					"library": "all",
+					"min_width": "",
+					"min_height": "",
+					"min_size": "",
+					"max_width": "",
+					"max_height": "",
+					"max_size": "",
+					"mime_types": ""
+				},
+				{
+					"key": "field_slides_text",
+					"label": "Текст",
+					"name": "text",
+					"type": "wysiwyg",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": 0,
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"default_value": "",
+					"tabs": "visual",
+					"toolbar": "basic",
+					"media_upload": 0,
+					"delay": 0
+				},
+				{
+					"key": "field_slides_action",
+					"label": "Действие",
+					"name": "action",
+					"type": "button_group",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": 0,
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"choices": {
+						"none": "Нет",
+						"button": "Кнопка",
+						"page": "Страница",
+						"link": "Ссылка"
+					},
+					"allow_null": 0,
+					"default_value": 0,
+					"layout": "horizontal",
+					"return_format": "value"
+				},
+				{
+					"key": "field_slides_action_title",
+					"label": "Название кнопки",
+					"name": "action-title",
+					"type": "text",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": [
+						{
+							"field": "field_slides_action",
+							"operator": "!=",
+							"value": "none"
+						}
+					],
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"default_value": "",
+					"placeholder": "",
+					"prepend": "",
+					"append": "",
+					"maxlength": ""
+				},
+				{
+					"key": "field_slides_button",
+					"label": "Кнопка",
+					"name": "button",
+					"type": "button_group",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": [
+						{
+							"field": "field_slides_action",
+							"operator": "==",
+							"value": "button"
+						}
+					],
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"choices": {
+						"call": "Звонок",
+						"request": "Заявка",
+						"another": "Произвольно"
+					},
+					"allow_null": 0,
+					"default_value": "call",
+					"layout": "horizontal",
+					"return_format": "value"
+				},
+				{
+					"key": "field_slides_another",
+					"label": "Произвольно",
+					"name": "another",
+					"type": "text",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": [
+						{
+							"field": "field_slides_action",
+							"operator": "==",
+							"value": "another"
+						}
+					],
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"default_value": "",
+					"placeholder": "",
+					"prepend": "",
+					"append": "",
+					"maxlength": ""
+				},
+				{
+					"key": "field_slides_page",
+					"label": "Страница",
+					"name": "page",
+					"type": "page_link",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": [
+						{
+							"field": "field_slides_action",
+							"operator": "==",
+							"value": "page"
+						}
+					],
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"post_type": {
+						"0": "page",
+						"1": "post",
+						"2": "service"
+					},
+					"taxonomy": "",
+					"allow_null": 0,
+					"allow_archives": 1,
+					"multiple": 0
+				},
+				{
+					"key": "field_slides_link",
+					"label": "Ссылка",
+					"name": "link",
+					"type": "url",
+					"instructions": "",
+					"required": 0,
+					"conditional_logic": [
+						{
+							"field": "field_slides_action",
+							"operator": "==",
+							"value": "link"
+						}
+					],
+					"wrapper": {
+						"width": "",
+						"class": "",
+						"id": ""
+					},
+					"default_value": "",
+					"placeholder": ""
+				}
+			]
+		}
+	],
+	"location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "gse-slider"
+            }
+        ]
+    ],
+	"menu_order": 0,
+	"position": "normal",
+	"style": "default",
+	"label_placement": "top",
+	"instruction_placement": "label",
+	"hide_on_screen": "",
+	"active": 1,
+	"description": ""
+}
